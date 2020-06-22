@@ -1,0 +1,8 @@
+[
+	{
+		"name": "memorizedReportsTitle",
+		"locators": [
+			"_._:xpath=//li[@class='title' and normalize-space(text())='Memorized Reports']"
+		]
+	}
+]

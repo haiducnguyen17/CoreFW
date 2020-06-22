@@ -1,0 +1,110 @@
+# SM-29255.robot
+Bulk_SM-29255-01_02_06_Verify That New Object Type Filter To Show Hide Cable Vaults Is Added Into Site Tree
+Bulk_SM-29255-04_05_Verify That Cable Vault Filter Function Does Not Affect Patching Cabling Window, Spaces View
+SM-29255-07_Verify That Cable Vault Filter Icon Shows And Works On SM After Upgrading From Old SM Version To Latest Version
+# SM-29546.robot
+SM-29546_01_Verify That The Trace Window With The Uplink Tabs For Switch Are Displayed When Clicking On The Toggle Button
+SM-29546_02_Verify That The Trace Window With The Uplink Tabs For Managed Switch Are Displayed When Clicking On The Toggle Button
+SM-29546_03_Verify That The Trace Window With The Uplink Tabs Are Displayed With Circuit: Switch In Rack -> Patched To -> Panel -> Cabled To -> Switch In Rack; Switch In Rack -> Cabled To -> Panel -> Patched To -> Mainframe (And Poe)
+SM-29546_04_Verify That The Trace Window With The Uplink Tabs Are Displayed With Circuit: Switch In Rack -> Patched To -> Panel -> Cabled To -> Faceplate -> Patched To -> Device -> Assigned To -> Person
+SM-29546_05_Verify That The Trace Window With The Uplink Tabs Are Displayed With Circuit: Switch In Rack -> Cabled To -> Panel <- F2B Cabling <- MC -> Patched To -> Panel -> Cabled To -> Switch
+SM-29546_06_Verify that the Trace window with the uplink tabs are displayed with circuit: Switch in Rack -> patched to -> Panel -> cabled to -> Splice
+SM-29546_07_Verify that the Trace window with the uplink tabs are displayed with circuit: Switch in Rack -> patched 4xLC to -> Panel -> cabled to -> Faceplate
+SM-29546_08_Verify that the Trace window with the uplink tabs are displayed with circuit: Switch in Rack -> cabled 3xMPO to -> Panel -> patched 4xLC to -> Server
+SM-29546_09_Verify that the Trace window with the uplink tabs are displayed with circuit: Switch in Room -> cabled to -> Panel -> patched to -> Switch in Rack
+SM-29546_10_Verify that the Trace window with the uplink tabs are displayed with WO circuit: Switch in Room -> cabled to -> Panel -> patched to -> Switch in Rack
+SM-29546_12_Verify that the Trace window with the uplink tabs are displayed in Circuit History with circuit: Faceplate -> cabled to -> Panel -> patched to -> Switch in Rack
+SM-29546_13_Verify that the Uplink tabs are displayed correctly in the Cabling/Patching window
+# SM-29016.robot
+[Bulk SM-29016-01->11] Verify that a new configue page "GeoMap Options" is added in to Administrartion tab -> Spaces category
+# SM-28375-Data Driven Add.robot
+SM-28375-05 Check icon in tree ${tree} with node ${treenode} and expectation ${icon}
+# SM-28375-Data Driven Delete.robot
+SM-28375-05 Check icon in tree ${tree} with node ${treenode} and expectation ${icon}
+# SM-28375.robot
+Bulk1 (SM-28375_01->04) Verify Room & CV Icons Are Changed After Adding/Deleting, Cutting/Pasting, Copying/Pasting and Dragging/ Dropping Splice Enclosure
+SM-28375-05_Verify That The Room And CV Icons With Splice Enclosure Are Displayed Correctly In The Windows
+SM-28375_06_Verify That The Room And CV Icons Are Changed After Adding/Deleting Splice Enclosure In The Spaces View
+SM-28375_08_Verify That The Room And Cv Icons Are Updated After Converting Db
+SM-28375_09_Verify That The Room And CV Icons Are Updated In The Spaces View After Converting DB
+# SM-27870.robot
+(SM-27870-01) Verify that event "Cabling Removed from Critical Circuit" is removed from SM.
+(Bulk-SM-27870-02-04) Verify that SM does not genarate event "Cabling Removed from Critical Circuit" in Event Log with critical circuit.
+(SM-27870-06) Verify that event "Cabling Removed from Critical Circuit" was generated in old version still be displayed in Event Log after restoring DB from previous version to latest version
+# SM-29529.robot
+(SM-29529-01) Verify that SM will remove "Non-Critical Port Threshold (minutes) *" and "Critical Port Threshold (minutes) *" from the "Managed Port Options" page in Administration.
+(Bulk-29529-02-05) Verify that the "Managed Port Status Changed--Link Down" event generated when SM detects a managed port is down
+(Bulk-29529-06-09) Verify that the "Critical Circuit Down" event generated when SM detects a managed port is down if this port is marked critical
+# SM-29651-Straight.robot
+SM-29651-03_Verify that Critical Circuit Restored event must be generated in LC circuit MNE in rack: Card port - generic panel - faceplate - DD
+SM-29651-04_Verify that Critical Circuit Restored event must be generated in LC circuit: MNE in room (Card/GBIC Slot/port) -> generic panel -> generic panel -> faceplate -> DD
+SM-29651-05_Verify that Critical Circuit Restored event must be generated in MPO12-MPO12 circuit: MNE in Room -> Panel -> Blade Server
+SM-29651-06_Verify that Critical Circuit Restored event must be generated in MPO12-4xLC circuit: MNE in Room -> Panel -> Media Converter
+# SM-29837.robot
+(Bulk-29837-01-02) Verify that event "Unscheduled Patching Change to Critical Circuit" added to SM and "Patching Change to Critical Circuit" is removed from SM..
+(SM-29837-03) Verify that user can receive email after create circuit with critical port.
+(SM-29837-04) Verify that user can receive email after create circuit with critical port.
+# SM-29651-Breakout.robot
+SM-29651-10_Verify that Critical Circuit Restored event must be generated in MPO24-12xLC circuit: MNE in room -> panel -> CP
+SM-29651-09_Verify that Critical Circuit Restored event must be generated in MPO12-2xMPO24 circuit: MNE in rack -> generic panel
+SM-29651-07_Verify that Critical Circuit Restored event must be generated in MPO12-6xLC circuit: MNE in room -> Generic Panel -> Generic Panel -> Splice
+# SM-29556.robot
+SM-29556-01_Verify that the correct routing for branch connection is shown on Trace window in circuit: Switch -> patched (6xLC-MPO12) to -> Panel 01 -> cabled (MPO12-MPO12) to -> Panel 02 -> patched (MPO12-6xLC) to -> Switch
+SM-29556-03_Verify that the correct routing for branch connection is shown on Trace window in circuit: Alpha Panel -> cabled to -> MPO Generic Panel -> patched (MPO12-6xLC) to -> Server 01
+SM-29556-04_Verify that the correct routing for branch connection is shown on Trace window in circuit: LC MNE -> cabled (6xLC-MPO12) to -> Panel 01 -> patched (MPO12-MPO12) to -> Panel 02 -> cabled (MPO12-6xLC) to -> LC Switch
+SM-29556-06_Verify that the correct routing for branch connection is shown on Trace window in circuit: Beta Panel -> cabled to -> MPO Generic Panel -> patched (MPO12-6xLC) to -> Server 01
+# SM-29803.robot
+SM-29803-02_Verify that user cannot create cabling MPO12-6xLC ULL Assembly between InstaPatch (Alpha/Beta) Port and Equipment port
+SM-29803-03_Verify that user can create/remove cabling MPO12-6xLC ULL Assembly from Generic Panel to Generic Panel/outlet
+SM-29803-04_Verify that user can create/remove cabling MPO12-6xLC ULL Assembly between DM08 and equipment port
+SM-29803-05_Verify that user can create/remove F2B cabling MPO12-6xLC ULL Assembly from MPO InstaPatch to LC Generic Panel port
+SM-29803-06_Verify that user cannot create/remove F2B cabling 6xLC-MPO12/MPO12-6xLC ULL Assembly from InstaPatch (Beta/Alpha) to Equipment port
+SM-29803-07_Verify that user can create/remove F2B cabling 6xLC-MPO12 ULL Assembly from InstaPatch (DM08/DM12) to Generic Panel port
+# SM-30124_suite01.robot
+SM-30124-07_Verify that Change Service is not found circuit contains new 6x
+SM-30124-08-Verify that the user can decommission server with 6xLC EB:Switch -> patched 6xLC EB to -> MPO12 Panel -> cabled to -> MPO12 Panel -> patched 6xLC EB to -> LC Server
+SM-30124-09-Verify that the user can decommission server with 6xLC EB: LC Switch -> cabled 6xLC to -> MPO12 Panel -> F2B cabling to -> MPO12 Panel -> patched 6xLC to -> LC Server
+# SM-30124_suite02.robot
+SM-30124-10_Verify that the user can decommission server with 6xLC EB: LC Switch -> patched 4xLC to -> MPO12 Panel -> cabled to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-30124-11_Verify that the user can decommission server with 6xLC EB: LC Switch -> cabled 6xLC to -> MPO12 Panel -> patched 4xLC to -> LC Server
+SM-30124-12_Verify that the user can decommission server with 6xLC EB: MPO24 Switch -> cabled 3xMPO to -> MPO12 -> F2B cabling 6xLC to -> LC -> patched 6xLC to -> MPO12 Server
+# SM-30124_suite03.robot
+SM-30124_01-Verify that the user can change sevice/remove circuit for 6xLC EB with circuit: LC Switch -> cabled 6xLC to -> MPO Panel 01 -> patched 6xLC to -> LC Panel 02
+SM-30124_03_Verify that the user can remove circuit for 6xLC EB with circuit LC Switch -> patched 6xLC to -> MPO12 Panel -> cabled to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-30124_04_Verify that the user can change sevice/remove circuit for 6xLC EB with circuit: LC Switch -> cabled 6xLC to -> MPO12 Panel -> F2B cabling to -> MPO12 Panel -> patched 4xLC to -> LC Server
+# SM-30286.robot
+SM-30286-01_Verify that the new scale indicator is added into GeoMap with Map View
+SM-30286-02_Verify that the new scale indicator is added into GeoMap with Satellite View
+SM-30286-03_Verify that the new scale indicator still work correctly when user uses Custom GeoMap Server for MapView
+SM-30286-04_Verify that the new scale indicator is added into GeoMap with Satellite View
+# SM-29975.robot
+SM-29975-01_Verify That The Circuit Trace Report Is Displayed Correctly With New Customer Circuit (IBM): LC Switch -> patched to -> DM12 -> cabled to -> ${MPO1}2 Panel -> patched New_6xLC to -> LC Server
+(Bulk_SM-29975-02-03-04-05)_Verify That The Circuit Trace Report Is Displayed Correctly
+(Bulk_SM-29975-06-07-08-09-10)_Verify that the circuit trace report is displayed correctly
+(Bulk_SM-29975-11-12-13-15)_Verify that the circuit trace report is displayed correctly
+(Bulk_SM-29975-16-17-18)_Verify that the circuit trace report is displayed correctly
+SM-29975-19_Verify that the Trace window displays correctly for circuit: LC Switch -> DM08 -> ${MPO1}2 Panel -> LC Server
+(Bulk_SM-29975-20-21-22-23-24)_Verify that the circuit trace report is displayed correctly
+(Bulk_SM-29975-25-26-27-28-29)_Verify that the circuit trace report is displayed correctly
+(Bulk_SM-29975-30-31-32)_Verify That After Converting DB, The Circuit Trace Report Is Displayed Correctly With Customer Circuit
+# SM-29980_SM-29998.robot
+SM-29998_01_Verify the new image, tooltip for MPO12 to 4xLC EB, MPO12 to 6xLC EB on cabling (patching/ f2b cabling) is displayed
+(Bulk_SM-29998-02-05)_Verify the icon a new image is displayed correctly for MPO12 Panel Cabled to LCPanel
+(Bulk_SM-29998-09-11)_Verify the icon a new image is displayed correctly for LCPanel Front To Back Cabling MPO12 Panel
+(Bulk_SM-29998-03-06)_Verify the icon a new image is displayed correctly for DM08 connected to LCPanel
+(Bulk_SM-29998-10-12)_Verify the icon a new image is displayed correctly for DM08 connected to LCPanel
+(Bulk_SM-29998-08-13)_Verify the icon a new image is displayed correctly for DM12 connected to LCPanel
+(Bulk_SM-29998-04-07)_Verify the icon a new image is displayed correctly for MPO12 Panel connected to LC Switch
+SM-29998_14_Verify the icon a new image is for MPO12 Panel 4xLC patched to LCPanel
+SM-29998_15_Verify the icon a new image is for MPO12 Panel 4xLC patched to LCPanel (Alpha)
+SM-29998_16_Verify the icon a new image is for MPO12 Server 4xLC patched to DM08
+SM-29998_17_Verify the icon a new image is for MPO12 Switch 4xLC patched to DM12
+SM-29998_18_Verify the icon a new image is for MPO12 Switch 6xLC EB patched to LC Panel
+SM-29998_19_Verify the icon a new image is for MPO12 Server 6xLC EB patched to LC Panel (Beta)
+SM-29998_20_Verify the icon a new image is for MPO12 Switch 6xLC EB patched to DM08
+SM-29998_21_Verify the icon a new image is for MPO12 Panel 6xLC EB patched to DM12
+# SM-30080.robot
+SM-30080-01-Verify the "No Path" message and icon is displayed on Trace window when user create cabling MPO12-New_6xLC from HSM Port (DM08) to LC Panel Port
+SM-30080-02-Verify the The "No Path" message and icon is displayed on Trace window for circuit: LC Switch -> patched to -> DM08 -> cabled -> MPO12 Panel -> patched (MPO12-6xLC EB) to -> LC Server
+SM-30080-03-Verify the The "No Path" message and icon is displayed on Trace window for circuit: LC Panel - cabled to (MPO12-6xLC EB) -> MPO12 Panel - patched to -> MPO12 Panel - cabled to -> DM 08
+SM-30080-04-Verify the The "No Path" message and icon is displayed on Trace window for circuit: MPO12 Switch -> patched to -> MPO12 -> cabled (MPO12-6xLC EB) to -> LC Switch

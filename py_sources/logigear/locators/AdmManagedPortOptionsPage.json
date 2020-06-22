@@ -1,0 +1,8 @@
+[
+	{
+		"name": "dynamicManagedPortsLabel",
+		"locators": [
+			"_._:xpath=//div[@id='dvManagedPortOptions']//div[@style='display:none;']//div[normalize-space(text())='{0}']"
+		]
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"name": "trackPatchPlugInsertionsRemovalsCbb",
+		"locators": [
+			"_._:id=selTrack"
+		]
+	},
+	{
+		"name": "trackButtonPressesChk",
+		"locators": [
+			"_._:id=chkTrackButton"
+		]
+	}
+]

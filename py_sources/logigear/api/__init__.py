@@ -1,0 +1,5 @@
+USERNAME = "";
+PASSWORD = "";
+CLIENT = None;
+ACCESS_TOKEN = "";
+TOKEN_TYPE = "";

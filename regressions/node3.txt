@@ -1,0 +1,73 @@
+# SM-29855-Connections In Room.robot
+SM-29855_TC01,02,03,04,05,06,07,08_Verify that Connections in Rooms Reports and Panel-to-Faceplate/Consolidation Point Cabling Reports shows data correctly for new 6xLC EB in circuit
+# SM-29855-Panel To Equipment Cabling.robot
+SM-29855_TC16,17,18,19,20,21_Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit
+# SM-29855-Front To Back Cabling Report.robot
+(SM-29855-09) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:_LC Switch 01/01-06 <-cabled 6xLC EB to- MPO Panel 01/01 -F2B Cabling 6x LC EB to-> LC Switch 02/01-06
+(SM-29855-10) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:_LC Switch 01/01-06 <-cabled 6xLC EB to- MPO Panel 01/01 -F2B Cabling 6x LC EB to-> LC Switch 02/01-06
+(SM-29855-11) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:LC Panel 01/01-04 <- cabled to- MPO Panel 02/01 -F2B Cabling 6xLC EB-> LC Panel 03/01-06
+(SM-29855-12) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:MPO24 Switch 01/01 -cabled Trifurcase to -> MPO Panel 01/01-03 -F2B Cabling 6x LC EB to-> LC Panel 02/01-06
+(SM-29855-13) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:MPO12 Panel 03/01 -F2B Cabling 6xLC EB->LC Panel 01/01-06 -F2B Cabling 6x EB to-> DM08 Panel 02/(MPO 01)/01-04
+(SM-29855-14) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:MPO24 Switch 01/01 -cabled 3xMPO12 to-> MPO Panel 01/01,02,03 -F2B Cabling 6xLC EB to-> LC Panel 02/01-18
+(SM-29855-15) Verify that F2B Cabling Reports shows data correctly for new 6xLC EB in circuit:MPO12 Switch 01/01 -cabled to-> MPO12 Panel 01/01-06 -F2B cabling 6xLC EB to-> LC Panel 02/01-06 -F2B cabling 6xLC EB to-> DM12 Panel 03/01-06 -patchig to-> LC Server 01/01-06
+# SM-29855-Panel To Panel Cabling Report.robot
+(SM-29855-22) Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit:_LC Panel 01/01-06 -cabled 6xLC EB to-> MPO12 Panel 02/01 -patched to-> MPO12 Panel 03/01-cabled 4xLC to-> LC Panel 04/01-04.
+(SM-29855-23) Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit:LC Panel 01/01-06 -cabled 6xLC EB to-> DM12 Panel 02/01-06 -patched to-> LC Panel 03/01-0 -cabled 6xLC EB to-> DM12 Panel 04/01-06 -patchig to-> LC Panel 05/01-06
+(SM-29855-24) Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit:LC Panel 01/01-06 <-cabled 6xLC EB to- DM08 Panel 02/01-06(MPO 01) ->LC Panel 03/01-06
+(SM-29855-25) Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit:LC Panel 01/01-06 <-Cabled 6xLC EB to- DM12 Panel 02/01-06 -patched to-> DM12 Panel 03/01-06 -Cabled 6xLC EB-> LC Panel 04/01-06
+(SM-29855-26) Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit:LC Panel 01/01-06 -patched to-> DM12 Panel 02/01-06 (MPO 01) <-F2B MPO12- MPO Panel 03/01 -cabled 6xLC EB to-> LC Panel 04/01-06
+(SM-29855-27) Verify that Panel to Equipment Reports shows data correctly for new 6xLC EB in circuit:MPO24 Panel 01/01 -patched 3xMPO12-> MPO Panel 02/01-03 -cabled 6xLC EB to-> LC Panel 02/01-06
+# SM-29729.robot
+(Bulk SM-29729_01-02) Verify that new image can show correctly when add Splice Enclosure to Rack/Cabinets/Auxiliary Racks under Cable Vault and Building
+SM-29729_03 Verify that new image can show correctly after edit Rack Units of Splice Enclosure in Rack/Cabinets/Auxiliary
+SM-29729_04 Verify that new image can show correctly when add Splice Enclosure to Rack/Cabinets/Auxiliary Racks after upgrading SM version
+# SM-29834-User Activity.robot
+(Bulk-29834-01-10_UAR)_Verify that the "User Activity" report generated for connection type MPO-6xLC correctly
+# SM-29834-Work Order Details.robot
+(Bulk-29834-01-10_WDR-01)_Verify that the "Work Order Details" report generated for add patching connection type MPO-6xLC correctly
+(Bulk-29834-01-10_WDR-02)_Verify that the "Work Order Details" report generated for remove patching connection type MPO-6xLC correctly
+# SM-29834-Conduit Fault.robot
+(Bulk-29834-01-10_CFR-01)_Verify that the "Conduit Fault Impact" report generated for add patching connection type MPO-6xLC correctly
+(Bulk-29834-01-10_CFR-02)_Verify that the "Conduit Fault Impact" report generated for remove patching connection type MPO-6xLC correctly
+# SM-29576.robot
+(Bulk_SM-29576-01-03)_Verify there is a new "Network Equipment Port Information" report and its description in Properties report, the UI on Select Filters page of Managed/Non-Managed Network Equipment Port" report
+(SM-29576-05)_Verify user can generate "Network Equipment Port Information" report for MNE/NE with default columns in Room
+(SM-29576-06)_Verify user can generate "Network Equipment Port Information" report for MNE/NE with default columns in Rack
+(SM-29576-07)_Verify user can generate "Network Equipment Port Information" report for MNE/NE with adding some columns (not in Groups) to the contain
+(Bulk_SM-29576-02-04-12)_Verify User Can Generate Network Equipment Port Information Report For MNE In Room/Rack With Adding The Fields In Port Fields Section
+(SM-29576-08-09-10-11)_Verify user can generate Network Equipment Port Information report for MNE in Room/Rack
+(Bulk_SM-29576-13-14)_Verify User Can Generate Network Equipment Port Information Report For MNE In Room/Rack with adding the fields in Connected Equipment/Devices Section
+# SM-29808_SM-29832_SM-29833_suite03.robot
+SM-29808_SM-29832_SM-29833_11-Verify that the service is propagated and trace correctly in circuit: LC Switch -> cabled 6xLC to -> MPO12 Panel -> patched 6xLC to -> LC Panel -> cabled to -> LC Faceplate
+SM-29808_SM-29832_SM-29833_12_Verify that the service is propagated and trace correctly in circuit: LC Switch -> cabled 6xLC-EB to -> MPO12 Panel -> patched 6xLC-EB to -> LC Server
+SM-29808_SM-29832_SM-29833_13_Verify that the service is propagated and trace correctly in circuit: LC Switch -> patched to -> LC Panel -> cabled to -> Splice - Splice -> cabled to -> LC Panel -> patched 6xLC-EB to -> MPO Panel
+SM-29808_SM-29832_SM-29833_15_Verify that the service is propagated and trace correctly in circuit: MPO12 Panel -> patched 6xLC-EB to -> LC Panel
+# SM-29808_SM-29832.robot
+SM-29808_SM-29832_06_Verify that the service is propagated and trace correctly in customer circuit: LC Switch -> cabled 6xLC to -> MPO12 Panel -> F2B cabling to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-29808_SM-29832_07_Verify that the service is propagated and trace correctly in customer circuit: LC Switch -> cabled 6xLC to -> MPO12 Panel -> patched to -> MPO12 Panel -> cabled 6xLC to -> LC Switch
+SM-29808_SM-29832_08_Verify that the service is propagated and trace correctly in customer circuit: LC Switch -> patched 6xLC to -> MPO12 Panel -> cabled to -> MPO12 Panel -> F2B cabling -> LC Panel -> patched to -> LC Server
+SM-29808_SM-29832_09_Verify that the service is propagated and trace correctly in customer circuit: LC Switch -> cabled 6xLC to -> MPO12 Panel -> patched to -> MPO12 Panel -> cabled 6x LC to -> LC Panel -> patched to -> LC Server
+SM-29808_SM-29832_10_Verify that the service is propagated and trace correctly in customer circuit: LC Switch -> patched to -> MPO 12 Panel -> cabled to -> MPO12 Panel -> F2B 6xLC cabling -> LC Panel -> patched to -> LC Server
+SM-29808_SM-29832_18_Verify that user can create cabling MPO12-6xLC from InstaPatch Port (DM08) to LC Panel Port
+SM-29808_SM-29832_19_Verify that the Trace window displays correctly for circuit: LC Switch -> DM08 -> MPO12 Panel -> LC Server
+# SM-29804_SM-29805.robot
+SM-29804_SM-29805_02_Verify that user can create/remove patch MPO12-6xLC from Panel port to Panel port
+SM-29804_SM-29805_03_Verify that the Patching connection and WO are removed after deleting object
+SM-29804_SM-29805_04_Verify that user can create/remove patch MPO12-6xLC ULL Assembly from MPO InstaPatch port to Switch Port
+SM-29804_SM-29805_05_Verify that user can create/remove patch MPO12-6xLC ULL Assembly from MPO InstaPatch port to Server Port
+SM-29804_SM-29805_06_Verify that user can create/remove patch MPO12-6xLC ULL Assembly from MPO InstaPatch port to MNE Port
+SM-29804_SM-29805_07_Verify that SM allow Cross-Zone Patching for MPO12-6xLC ULL Assembly if the "Allow Cross-Zone Patching for non-iPatch Objects" option is checked
+# SM-29808_SM-29832_SM-29833_suite02.robot
+SM-29808_SM-29832_30_Verify that after converting DB, the service is propagated and trace correctly in customer circuit: LC Switch -> patched 6xLC to -> MPO12 Panel -> cabled to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-29808_SM-29832_31_Verify that after converting DB, the service is propagated and trace correctly in customer circuit: LC Switch -> cabled 6xLC to -> MPO12 Panel -> F2B cabling to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-29808_SM-29832_32_Verify that after converting DB, the service is propagated and trace correctly in customer circuit: LC Switch -> cabled 6xLC to -> InstaPatch -> patched to -> LC Server
+(Bulk_SM-29808_26_27_28_29)_Verify that user cannot create cabling MPO12-6xLC from InstaPatch Port
+# SM-29808_SM-29832_SM-29833_suite01.robot
+SM-29808_SM-29832_01-Verify that the service is propagated and trace correctly in new customer circuit (IBM): LC Switch -> patched to -> DM12 -> cabled to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-29808_SM-29832_02-Verify that the service is propagated and trace correctly in new customer circuit: LC Switch -> patched to -> DM12 -> cabled 6xLC to -> LC -> F2B cabling 6xLC -> DM12 -> patched to -> LC Server
+SM-29808_SM-29832_03-Verify that the service is propagated and trace correctly in new customer circuit: LC Switch -> patched to -> DM12 <- F2B cabling <- MPO12 Panel -> cabled 6xLC to -> LC Switch
+SM-29808_SM-29832_04-Verify that the service is propagated and trace correctly in new customer circuit: LC Switch -> patched to -> DM12 -> cabled 6xLC to -> LC Switch
+SM-29808_SM-29832_05-Verify that the service is propagated and trace correctly in customer circuit: LC Switch -> patched 6xLC to -> MPO12 Panel -> cabled to -> MPO12 Panel -> patched 6xLC to -> LC Server
+SM-29808_SM-29832_SM-29833_16-Verify that the service is propagated and trace correctly in circuit: MPO12 Panel -> patched 6xLC-EB to -> LC Switch
+SM-29808_SM-29832_SM-29833_17-Verify that the service is propagated and trace correctly in circuit: MPO12 Panel -> F2B cabling 6xLC-EB to -> LC Panel
+SM-29808_SM-29832_SM-29833_14_Verify that the service is propagated and trace correctly in circuit: RJ-45 Switch -> cabled to -> RJ-45 Panel -> patched to -> MC - MC -> F2B cabling to -> LC Panel -> patched 6xLC-EB to -> MPO12 Panel

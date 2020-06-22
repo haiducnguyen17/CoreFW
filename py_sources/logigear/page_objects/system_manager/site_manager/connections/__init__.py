@@ -1,0 +1,3 @@
+from logigear.page_objects.system_manager.site_manager.connections.ConnectionDialogDesktop import ConnectionDialogDesktop
+
+connection = ConnectionDialogDesktop()

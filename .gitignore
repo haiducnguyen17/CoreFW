@@ -1,0 +1,11 @@
+/libspecs/
+.project
+.pabotsuitenames
+log.html
+output.xml
+report.html
+*.png
+/report/
+/data/
+**/*.pyc
+**/*.out

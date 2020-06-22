@@ -1,0 +1,80 @@
+[
+	{
+		"name": "nameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtName']"
+		]
+	},
+	{
+		"name": "eventTypeTable",
+		"locators": [
+			"_._:xpath=//table[@id='EventLogFiltersGrid']"
+		]
+	},
+	{
+		"name": "ipatchEventsTab",
+		"locators": [
+			"_._:xpath=//h3[normalize-space(text())='iPatch Events']"
+		]
+	},
+	{
+		"name": "systemManagerEventsTab",
+		"locators": [
+			"_._:xpath=//h3[normalize-space(text())='System Manager Events']"
+		]
+	},
+	{
+		"name": "snmpEventsTab",
+		"locators": [
+			"_._:xpath=//h3[normalize-space(text())='SNMP Events']"
+		]
+	},
+	{
+		"name": "ipatchEventTable",
+		"locators": [
+			"_._:xpath=//div[@id='dviPatch']"
+		]
+	},
+	{
+		"name": "systemManagerEventsTable",
+		"locators": [
+			"_._:xpath=//div[@id='dvSystemManager']"
+		]
+	},
+	{
+		"name": "snmpEventsTable",
+		"locators": [
+			"_._:xpath=//div[@id='dvSNMP']"
+		]
+	},
+	{
+		"name": "cancelBtn",
+		"locators": [
+			"_._:xpath=//li[@id='cmdCancel']"
+		]
+	},
+	{
+		"name": "dynamicEventsChk",
+		"locators": [
+			"_._:xpath=//div[normalize-space(text())='{0}']//input[@type='checkbox']"
+		]
+	},
+	{
+		"name": "dynamicEventsTab",
+		"locators": [
+			"_._:xpath=//h3[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "dynamicEventsExpandTab",
+		"locators": [
+			"_._:xpath=//h3[normalize-space(text())='{0}' and @aria-expanded='true']"
+		]
+	},
+	{
+		"name": "dynamicEventsItem",
+		"locators": [
+			"_._:xpath=//div[@class='item' and normalize-space(text())='{0}']"
+		]
+	}
+]

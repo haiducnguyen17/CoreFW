@@ -1,0 +1,963 @@
+[
+	{
+		"name": "usernameLbl",
+		"locators": [
+			"_._:xpath=//div[@class='login-user-name']"
+		]
+	},
+	{
+		"name": "remindlaterBtn",
+		"locators": [
+			"_._:xpath=//div[@id='divLicenseNotice']//div[@id='div_regLater']"
+		]
+	},
+	{
+		"name": "siteTreeDiv",
+		"locators": [
+			"_._:xpath=//div[@id='trvLftTreeView']"
+		]
+	},
+	{
+		"name": "contentTbl",
+		"locators": [
+			"_._:xpath=//table[@id='ContentListTbl']"
+		]
+	},
+	{
+		"name": "traceMapDiv",
+		"locators": [
+			"_._:xpath=//div[@id='TraceMapDialog']"
+		]
+	},
+	{
+		"name": "dynamicObjectOnContentTbl",
+		"locators": [
+			"_._:xpath=//tr//td[@aria-describedby='ContentListTbl_Name' and normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "allChk",
+		"locators": [
+			"_._:id=cb_ContentListTbl"
+		]
+	},
+	{
+		"name": "switchTraceViewBtn",
+		"locators": [
+			"_._:xpath=//input[@id='verticalView']"
+		]
+	},
+	{
+		"name": "addBtn",
+		"locators": [
+			"_._:id=imgAdd"
+		]
+	},
+	{
+		"name": "disabledAddBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgAdd' and contains(@class,'inactive')]"
+		]
+	},
+	{
+		"name": "editBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgEditProperty']"
+		]
+	},
+	{
+		"name": "disabledEditBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgEditProperty' and contains(@class,'inactive')]"
+		]
+	},
+	{
+		"name": "buildingLnk",
+		"locators": [
+			"_._:xpath=//div[@id='AddObject']//a[ins[contains(@style,'BuildingSmall.png')]]"
+		]
+	},
+	{
+		"name": "saveObjectBtn",
+		"locators": [
+			"_._:id=CmdSaveAddObject"
+		]
+	},
+	{
+		"name": "saveAddObjectBtn",
+		"locators": [
+			"_._:xpath=//li[@id='CmdSaveAddObejctProperty']"
+		]
+	},
+	{
+		"name": "nameTxt",
+		"locators": [
+			"_._:xpath=//div[(@id='AddObjectPropertiesShow' and not (@style='display: none;')) or (@id='PropertyContainer_vue' and (@style='display: block;')) or (@id='PropertyContainer_vue' and not(@style))]//input[@id='p_Name']"
+		]
+	},
+	{
+		"name": "cableVaultNameTxt",
+		"locators": [
+			"_._:xpath=//div[@id='PropertyContainer_vue']//input[@id='p_Name']"
+		]
+	},
+	{
+		"name": "descriptionTxt",
+		"locators": [
+			"_._:xpath=//textarea[@id='p_Description']"
+		]
+	},
+	{
+		"name": "zoneModeCbb",
+		"locators": [
+			"_._:xpath=//select[@id='p_RackManagerLANMode']"
+		]
+	},
+	{
+		"name": "zoneCbb",
+		"locators": [
+			"_._:xpath=//select[@id='p_RMLANID']"
+		]
+	},
+	{
+		"name": "contactCbb",
+		"locators": [
+			"_._:xpath=//select[@id='p_Contact']"
+		]
+	},
+	{
+		"name": "faceplatePortTypeCbb",
+		"locators": [
+			"_._://select[@id='p_OutletType']"
+		]
+	},
+	{
+		"name": "maximumOutletsCbb",
+		"locators": [
+			"_._:xpath=//select[@id='p_Outlets']"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:id=imgDelete"
+		]
+	},
+	{
+		"name": "disabledDeleteBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgDelete' and contains(@class,'inactive')]"
+		]
+	},
+	{
+		"name": "dialogConfirmBtn",
+		"locators": [
+			"_._:xpath=//li[@class='CmdSave' and @id='ok']"
+		]
+	},
+	{
+		"name": "connectionsBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgConnections']"
+		]
+	},
+	{
+		"name": "conduitsLnk",
+		"locators": [
+			"_._:xpath=//a[@id='ManageConduits']"
+		]
+	},
+	{
+		"name": "defineEquipmentPatchLnk",
+		"locators": [
+			"_._:xpath=//a[@id='aEquipmentPatch']"
+		]
+	},
+	{
+		"name": "eventBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgEvent']"
+		]
+	},
+	{
+		"name": "frontToBackCablingLnk",
+		"locators": [
+			"_._:xpath=//a[@id='frontBackCabling']"
+		]
+	},
+	{
+		"name": "ospCablingLnk",
+		"locators": [
+			"_._:xpath=//a[@id='OSPCabling']"
+		]
+	},
+	{
+		"name": "patchingLnk",
+		"locators": [
+			"_._:xpath=//a[@id='aPatching']"
+		]
+	},
+	{
+		"name": "replaceNetworkEquipmentLnk",
+		"locators": [
+			"_._:xpath=//a[@id='ReplaceNetworkEquipment']"
+		]
+	},
+	{
+		"name": "upgradeToIpatchLnk",
+		"locators": [
+			"_._:xpath=//a[@id='UpgradeToiPatch']"
+		]
+	},
+	{
+		"name": "dynamicEventsLnk",
+		"locators": [
+			"_._:xpath=//div[@class='quickmenu']//a[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "dynamicObjectLbl",
+		"locators": [
+			"_._:xpath=//h3[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "copyBtn",
+		"locators": [
+			"_._:id=imgCopy"
+		]
+	},
+	{
+		"name": "pasteBtn",
+		"locators": [
+			"_._:id=imgPaste"
+		]
+	},
+	{
+		"name": "dynamicContextMenuItem",
+		"locators": [
+			"_._:xpath=//div[@class ='jstree-classic-context']/ul/li[a[text()='{0}']]"
+		]
+	},
+	{
+		"name": "twoChoiceYesDiv",
+		"locators": [
+			"_._:id=twoChoiceYes"
+		]
+	},
+	{
+		"name": "twoChoiceNoDiv",
+		"locators": [
+			"_._:id=twoChoiceNo"
+		]
+	},
+	{
+		"name": "objectToAddOkBtn",
+		"locators": [
+			"_._:xpath=//li[@id='CmdSaveNumberToAddObject']"
+		]
+	},
+	{
+		"name": "quantityTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtInput']"
+		]
+	},
+	{
+		"name": "updateMneNameChk",
+		"locators": [
+			"_._:id=p_UpdateName"
+		]
+	},
+	{
+		"name": "dynamicVerticalTraceTbl",
+		"locators": [
+			"_._:{0}//table[contains(@class,'verticalTraceTable')]"
+		]
+	},
+	{
+		"name": "totalPortsTxt",
+		"locators": [
+			"_._:xpath=//input[@id='p_Ports']"
+		]
+	},
+	{
+		"name": "firstNameTxt",
+		"locators": [
+			"_._:id=p_FirstName"
+		]
+	},
+	{
+		"name": "lastNameTxt",
+		"locators": [
+			"_._:id=p_LastName"
+		]
+	},
+	{
+		"name": "rackUnitsTxt",
+		"locators": [
+			"_._:id=p_RackUnits"
+		]
+	},
+	{
+		"name": "locationInRackCbb",
+		"locators": [
+			"_._:id=p_LocationInRack"
+		]
+	},
+	{
+		"name": "dynamicViewTypeImg",
+		"locators": [
+			"_._:xpath=//a[@title='{0}']/img"
+		]
+	},
+	{
+		"name": "dynamicLockToggleLnk",
+		"locators": [
+			"_._:xpath=//a[@title='{0}']"
+		]
+	},
+	{
+		"name": "hidePropertiesDiv",
+		"locators": [
+			"_._:xpath=//div[@title='Hide Properties']"
+		]
+	},
+	{
+		"name": "hideTreeDiv",
+		"locators": [
+			"_._:xpath=//div[@title='Hide Tree']"
+		]
+	},
+	{
+		"name": "cablingLnk",
+		"locators": [
+			"_._:xpath=//a[@id='ToCabling']"
+		]
+	},
+	{
+		"name": "circuitProvisioningLnk",
+		"locators": [
+			"_._:xpath=//a[@id='aCircuitProvisioning']"
+		]
+	},
+	{
+		"name": "cableByNameLnk",
+		"locators": [
+			"_._:xpath=//a[@id='CablingByName']"
+		]
+	},
+	{
+		"name": "positionTxt",
+		"locators": [
+			"_._:id=p_Position"
+		]
+	},
+	{
+		"name": "dynamicIpV4Txt",
+		"locators": [
+			"_._:xpath=//div[@style='display: block;']//table[@id='pt_IPAddress' or @id='pt_IpV4Address']//input[@type='text'][{0}]"
+		]
+	},
+	{
+		"name": "portTypeCbb",
+		"locators": [
+			"_._:xpath=//select[@id='p_PortType']"
+		]
+	},
+	{
+		"name": "cutBtn",
+		"locators": [
+			"_._:id=imgCut"
+		]
+	},
+	{
+		"name": "cableVaultBtn",
+		"locators": [
+			"_._:xpath=//a[@id='cableVault']/img"
+		]
+	},
+	{
+		"name": "tableObjectNameLbl",
+		"locators": [
+			"_._:xpath=//td[@aria-describedby='ContentListTbl_Name' and normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "cancelTraceBtn",
+		"locators": [
+			"_._:xpath=//div[@class='PopupTitle'][span[@id='TraceDialogTitle']]//li[@class='CmdCancel']"
+		]
+	},
+	{
+		"name": "popupErrorMsg",
+		"locators": [
+			"_._:xpath=//div[@id='divAlert']//p"
+		]
+	},
+	{
+		"name": "confirmSavePopupBtn",
+		"locators": [
+			"_._:xpath=//div[@class='PopupTitle'][span[text()='System Manager']]//li[@class='CmdSave']"
+		]
+	},
+	{
+		"name": "objectSpaceviewIcon",
+		"locators": [
+			"_._:xpath=//*[text()='{0}']/ancestor::*/preceding-sibling::*[name()='g'][1]/*[name()='image']"
+		]
+	},
+	{
+		"name": "labelHideBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgLabel' and @class='layer_icon icon_label_hide']"
+		]
+	},
+	{
+		"name": "labelBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgLabel']"
+		]
+	},
+	{
+		"name": "iconImageObject",
+		"locators": [
+			"_._:http://{0}/systemmanager/Aspx/../Images/ObjectType/{1}.png"
+		]
+	},
+	{
+		"name": "dynamicObjectSpaceviewLabel",
+		"locators": [
+			"_._:xpath=//div[contains(@id,'map')]//*[text()='{0}']"
+		]
+	},
+	{
+		"name": "dynamicSpaceViewSwitcherBtn",
+		"locators": [
+			"_._:xpath=//img[@title='Click to {0} View']"
+		]
+	},
+	{
+		"name": "showTreeBtn",
+		"locators": [
+			"_._:xpath=//div[@id='LeftContent']//div[@title='Show Tree']"
+		]
+	},
+	{
+		"name": "hideTreeBtn",
+		"locators": [
+			"_._:xpath=//div[@id='LeftContent']//div[@title='Hide Tree']"
+		]
+	},
+	{
+		"name": "imageLayerCbb",
+		"locators": [
+			"_._:id=selLayouts"
+		]
+	},
+	{
+		"name": "dynamicZoomMapBtn",
+		"locators": [
+			"_._:xpath=//button[@class='ol-zoom-{0}']"
+		]
+	},
+	{
+		"name": "dynamicSnmpMenuLnk",
+		"locators": [
+			"_._:xpath=//a[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "snmpLnk",
+		"locators": [
+			"_._:id=imgSNMP"
+		]
+	},
+	{
+		"name": "nddChk",
+		"locators": [
+			"_._:id=p_NetworkedDeviceDiscovery"
+		]
+	},
+	{
+		"name": "dynamicObjectTypeLbl",
+		"locators": [
+			"_._:xpath=//a[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "dynamicLeftTreeFilterBtn",
+		"locators": [
+			"_._:xpath=//div[@id='LeftContent']//a[@id='{0}']//img"
+		]
+	},
+	{
+		"name": "dynamicAssignUser",
+		"locators": [
+			"_._:xpath=//table[@id='DirectoryGrid']//td[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "assignBtn",
+		"locators": [
+			"_._:id=p_img_AssignedTo"
+		]
+	},
+	{
+		"name": "assignUserTable",
+		"locators": [
+			"_._:xpath=//table[@id='DirectoryGrid']"
+		]
+	},
+	{
+		"name": "assignSaveBtn",
+		"locators": [
+			"_._:id=CmdSaveAssignToDialog"
+		]
+	},
+	{
+		"name": "dynamicPortColor",
+		"locators": [
+			"_._:{0}/preceding-sibling::td/img[contains(@src,'device_status_{1}')]"
+		]
+	},
+	{
+		"name": "slotCapacityTxt",
+		"locators": [
+			"_._:id=p_Units"
+		]
+	},
+	{
+		"name": "mapGraph",
+		"locators": [
+			"_._:xpath=//div[@id='map_graph']"
+		]
+	},
+	{
+		"name": "criticalChk",
+		"locators": [
+			"_._:xpath=//div[(@id='AddObjectPropertiesShow' and not (@style='display: none;')) or (@id='PropertyContainer_vue' and (@style='display: block;')) or (@id='PropertyContainer_vue' and not(@style))]//input[@id='p_Critical']"
+		]
+	},
+	{
+		"name": "reservedChk",
+		"locators": [
+			"_._:id=p_Reserved"
+		]
+	},
+	{
+		"name": "notAvailableChk",
+		"locators": [
+			"_._:id=p_Broken"
+		]
+	},
+	{
+		"name": "uplinkPortChk",
+		"locators": [
+			"_._:id=p_UpLink"
+		]
+	},
+	{
+		"name": "synchronizeYesLnk",
+		"locators": [
+			"_._:id=SNMPSyncYes"
+		]
+	},
+	{
+		"name": "mapDiv",
+		"locators": [
+			"_._:id=map"
+		]
+	},
+	{
+		"name": "mapTilerLnk",
+		"locators": [
+			"_._:xpath=//a[contains(@href,'maptiler')]"
+		]
+	},
+	{
+		"name": "openStreetMapLnk",
+		"locators": [
+			"_._:xpath=//a[contains(@href,'openstreetmap')]"
+		]
+	},
+	{
+		"name": "googleLnk",
+		"locators": [
+			"_._:xpath=//a[contains(@href,'google')]"
+		]
+	},
+	{
+		"name": "googleGuidelinesLnk",
+		"locators": [
+			"_._:xpath=//a[contains(@href,'google') and contains(@href,'geoguidelines')]"
+		]
+	},
+	{
+		"name": "showHideUplinkBtn",
+		"locators": [
+			"_._:id=imgToggleUplink"
+		]
+	},
+	{
+		"name": "uplinkTab",
+		"locators": [
+			"_._:xpath=//div[contains(@id,'uplink-wrapper-nav')]"
+		]
+	},
+	{
+		"name": "viewTypeTraceCbb",
+		"locators": [
+			"_._:{0}/following::div[@class='ListView']//select[@class='lstViews trace-list-view']"
+		]
+	},
+	{
+		"name": "refreshBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgSiteRefresh']"
+		]
+	},
+	{
+		"name": "propertiesDiv",
+		"locators": [
+			"_._:xpath=//div[@id='TabPropertiesProp']"
+		]
+	},
+	{
+		"name": "dynamicPropertyValue",
+		"locators": [
+			"_._:xpath=((//div[@id='TabPropertiesProp']/div[@style='display: block;'])|(//div[@id='TabProperties' and @style='display: block;'])|(//div[@id='TabPropertiesProp']))//td[div[normalize-space(@title) = '{0}']]/following-sibling::td/div"
+		]
+	},
+	{
+		"name": "spliceTypeCbb",
+		"locators": [
+			"_._:xpath=//select[@id='p_SpliceType']"
+		]
+	},
+	{
+		"name": "totalSplicesTxt",
+		"locators": [
+			"_._:id=p_Splices"
+		]
+	},
+	{
+		"name": "deviceInRackTypeCbb",
+		"locators": [
+			"_._:id=p_DeviceInRackType"
+		]
+	},
+	{
+		"name": "viewTypeTraceCbb",
+		"locators": [
+			"_._:xpath=//select[@class='lstViews trace-list-view']"
+		]
+	},
+	{
+		"name": "historyBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgLogging']"
+		]
+	},
+	{
+		"name": "circuitHistoryLnk",
+		"locators": [
+			"_._:xpath=//a[@id='menuCircuitHistory']"
+		]
+	},
+	{
+		"name": "contextMenuSyncYesLnk",
+		"locators": [
+			"_._:xpath=//p[@id='syncConfirmOK']"
+		]
+	},
+	{
+		"name": "contextMenuSyncNoLnk",
+		"locators": [
+			"_._:xpath=//p[@id='syncConfirmCancel']"
+		]
+	},
+	{
+		"name": "dynamicPriorityEventIcon",
+		"locators": [
+			"_._:xpath=//table[@id = 'ContentListTbl']//td[@aria-describedby = 'ContentListTbl_Name' and normalize-space(text()) = '{0}']/preceding-sibling::td[@aria-describedby = 'ContentListTbl_PriorityEvents']/img"
+		]
+	},
+	{
+		"name": "quareoUnmanagedConnectionsLnk",
+		"locators": [
+			"_._:xpath=//a[@id='QuareoUnmanagedConnections']"
+		]
+	},
+	{
+		"name": "connectionIdTxt",
+		"locators": [
+			"_._:id=p_ConnectionID"
+		]
+	},
+	{
+		"name": "serviceTicketIdTxt",
+		"locators": [
+			"_._:id=p_ServiceTicketID"
+		]
+	},
+	{
+		"name": "cordLengthTxt",
+		"locators": [
+			"_._:id=p_CordLength"
+		]
+	},
+	{
+		"name": "cordTypeTxt",
+		"locators": [
+			"_._:id=p_CordType"
+		]
+	},
+	{
+		"name": "cordColorTxt",
+		"locators": [
+			"_._:id=p_CordColor"
+		]
+	},
+	{
+		"name": "portField1Txt",
+		"locators": [
+			"_._:id=p_Field1"
+		]
+	},
+	{
+		"name": "portField2Txt",
+		"locators": [
+			"_._:id=p_Field2"
+		]
+	},
+	{
+		"name": "portField3Txt",
+		"locators": [
+			"_._:id=p_Field3"
+		]
+	},
+	{
+		"name": "portField4Txt",
+		"locators": [
+			"_._:id=p_Field4"
+		]
+	},
+	{
+		"name": "portField5Txt",
+		"locators": [
+			"_._:id=p_Field5"
+		]
+	},
+	{
+		"name": "staticRearChk",
+		"locators": [
+			"_._:xpath=//input[@id='p_RearStatic']"
+		]
+	},
+	{
+		"name": "staticFrontChk",
+		"locators": [
+			"_._:xpath=//input[@id='p_FrontStatic']"
+		]
+	},
+	{
+	    "name": "staticChk",
+	    "locators": [
+	        "_._:xpath=//input[@id='p_Static']"
+		]
+	},
+	{
+		"name": "centerPanelTitle",
+		"locators": [
+			"_._:id=lblContentsOf"
+		]
+	},
+	{
+		"name": "centerPanelContentList",
+		"locators": [
+			"_._:id=ContentList"
+		]
+	},
+	{
+		"name": "workOrdersBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgWorkOrder']"
+		]
+	},
+	{
+		"name": "workOrderQueueLnk",
+		"locators": [
+			"_._:xpath=//a[@id='WorkOrderQueue']"
+		]
+	},
+	{
+		"name": "selectImageBtn",
+		"locators": [
+			"_._:id=btnSelectImage"
+		]
+	},
+	{
+		"name": "selectImageCbb",
+		"locators": [
+			"_._:id=selImageList"
+		]
+	},
+	{
+		"name": "confirmPopupBtn",
+		"locators": [
+			"_._:xpath=//div[normalize-space(@class)='ui-dialog ui-widget ui-widget-content ui-corner-all']//li[@class='CmdSave']"
+		]
+	},
+	{
+		"name": "cancelPopupBtn",
+		"locators": [
+			"_._:xpath=//div[normalize-space(@class)='ui-dialog ui-widget ui-widget-content ui-corner-all']//li[@class='CmdCancel']"
+		]
+	},
+	{
+		"name": "dynamicPropertiesEquipmentImage",
+		"locators": [
+			"_._:xpath=//img[@id='p_ImageForElevationView_img'][contains(@src, '{0}')]"
+		]
+	},
+	{
+		"name": "dynamicEquipmentImageRackViewFront",
+		"locators": [
+			"_._:xpath=//div[@id='RackCabinetComponentsFront']//a[@title='{0}']//img[contains(@src,'{1}')]"
+		]
+	},
+	{
+		"name": "dynamicEquipmentImageRackViewZeroU",
+		"locators": [
+			"_._:xpath=//div[table[//td[normalize-space(text())='{0}']] and img[contains(@src,'{1}')]]"
+		]
+	},
+	{
+		"name": "rackVIewFrontDiv",
+		"locators": [
+			"_._:xpath=//div[@id='RackCabinetComponentsFront']"
+		]
+	},
+	{
+		"name": "rackVIewZeroUDiv",
+		"locators": [
+			"_._:xpath=//div[@id='TabZeroU']"
+		]
+	},
+	{
+		"name": "dynamicModuleChk",
+		"locators": [
+			"_._:xpath=//td[div[@title='{0}']]//input[contains(@id,'p_SEL')]"
+		]
+	},
+	{
+		"name": "dynamicModuleTypeCbb",
+		"locators": [
+			"_._:xpath=//td[div[@title='{0}']]/following-sibling::td//select[contains(@id,'_MTYPE')]"
+		]
+	},
+	{
+		"name": "dynamicOrientationCbb",
+		"locators": [
+			"_._:xpath=//td[div[@title='{0}']]/following-sibling::td//select[contains(@id,'_ORIENT')]"
+		]
+	},
+	{
+		"name": "portConfigurationCbb",
+		"locators": [
+			"_._:id=p_PortConfiguration"
+		]
+	},
+	{
+		"name": "dynamicObjectIcon",
+		"locators": [
+			"_._:xpath=//table[@id = 'ContentListTbl']//td[@aria-describedby = 'ContentListTbl_Name' and normalize-space(text()) = '{0}']/preceding-sibling::td[@aria-describedby = 'ContentListTbl_MPOPortType']/div"
+		]
+	},
+	{
+		"name": "dyanmicServiceChannelCbb",
+		"locators": [
+			"_._:xpath=//td[div[@title='{0}']]//following-sibling::td//select"
+		]
+	},
+	{
+		
+		"name": "mapGraphSvg",
+		"locators": [
+			"_._:xpath=//div[@id='map_graph']/*[name()='svg']"
+		]
+	},
+	{
+		"name": "appDiv",
+		"locators": [
+			"_._:xpath=//div[@id='app']"
+		]
+	},
+	{
+		"name": "servicesBtn",
+		"locators": [
+			"_._:id=imgServices"
+		]
+	},	
+	{
+		"name": "workOrderHistoryLnk",
+		"locators": [
+			"_._:xpath=//a[@id='WorkOrderHistory']"
+		]
+	},
+	{
+		"name": "dynamicMPOPortType",
+		"locators": [
+			"_._:xpath=//table[@id = 'ContentListTbl']//td[@aria-describedby = 'ContentListTbl_Name' and normalize-space(text()) = '{0}']/preceding-sibling::td[@aria-describedby = 'ContentListTbl_MPOPortType']/div/div[normalize-space(text()) = '{1}']"
+		]
+	},
+	{
+		"name": "workOrderForObjectLnk",
+		"locators": [
+			"_._:xpath=//a[@id='WorkOrderView']"
+		]
+	},
+	{
+		"name": "showWorkOnHoldLnk",
+		"locators": [
+			"_._:xpath=//a[@id='WorkOrderHold']"
+		]
+	},
+	{
+		"name": "overrideChoiceDiv",
+		"locators": [
+			"_._:xpath=//div[@class='PopupContentConfirm' and text()='Override']"
+		]
+	},
+	{
+		"name": "dynamicCellContentTable",
+		"locators": [
+			"_._:xpath=//table[@id='ContentListTbl']//tr[{0}]//td[{1}]"
+		]
+	},
+	{
+        "name": "scaleIndicatorDiv",
+		"locators": [
+			"_._:xpath=//div[@class='imvision-geomap-ol-scale-line ol-unselectable ol-unselectable_copy']/div[@class='imvision-geomap-ol-scale-line-inner']"
+		]
+	},
+	{
+		"name": "zoomExtentBtn",
+		"locators": [
+			"_._:xpath=//a[@id='zoomExtent']"
+		]
+	},
+	{
+		"name": "dynamicObjectIconWithPort",
+		"locators": [
+			"_._:xpath=//table[@id='ContentListTbl']//td[normalize-space(text())='{0}']/preceding-sibling::td/div[contains(@style,'{1}')]"
+		]
+	},
+	{
+		"name":"mapScaleLineInnerDiv",
+		"locators":[
+			"_._:xpath=//div[@class='imvision-geomap-ol-scale-line-inner']"
+		]
+	}	
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>2</configVersion>
+    <relativeTo>PROJECT</relativeTo>
+    <variable name="${PLATFORM}" value="Desktop"/>
+    <variable name="${BROWSER}" value="chrome"/>
+    <variable name="${CONFIGFILE}" value="drivers\driver_conf.json"/>
+    <variable name="${CONFIGKEY}" value="chrome_local"/>
+    <referencedLibrary type="PYTHON" name="AdmEmailServerPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/system_manager/AdmEmailServerPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmEventLogFilterPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/events/AdmEventLogFilterPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmEventNotificationProfilesPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/events/AdmEventNotificationProfilesPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmFeatureOptionsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/system_manager/AdmFeatureOptionsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmGeomapOptionsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/spaces/AdmGeomapOptionsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdministrationPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/AdministrationPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmLayerImageFilesPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/spaces/AdmLayerImageFilesPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmListPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/list/AdmListPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmLoggingOptionsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/system_manager/AdmLoggingOptionsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmManagedPortOptionsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/snmp/AdmManagedPortOptionsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmOptionalEventSettingsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/events/AdmOptionalEventSettingsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmPortFieldsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/user_defined_fields/AdmPortFieldsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmPriorityEventSettingsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/events/AdmPriorityEventSettingsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AdmSystemManagerUsersPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/administration/users/AdmSystemManagerUsersPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="BuildingApi" path="Commscope/py_sources/logigear/api/BuildingApi.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CableTemplatesPageDesktop" path="Commscope/py_sources/logigear/page_objects/quareo_simulator/CableTemplatesPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CablingPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/cabling/CablingPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CampusApi" path="Commscope/py_sources/logigear/api/CampusApi.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ChangeServicePageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/services/change_service/ChangeServicePageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CircuitHistoryPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/history/circuit_history/CircuitHistoryPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CircuitProvisioningPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/circuit_provisioning/CircuitProvisioningPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ConduitsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/conduits/ConduitsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="CreateWorkOrderPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/work_orders/create_work_order/CreateWorkOrderPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="DataDriver" path="C:/Python38-32/Lib/site-packages/DataDriver/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="DecommissionServerPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/services/decommission_server/DecommissionServerPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="DefineEquipmentPatchesPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/define_equipment_patches/DefineEquipmentPatchesPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="EventLogPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/events/event_log/EventLogPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="FrontToBackCablingPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/front_to_back_cabling/FrontToBackCablingPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="logigear.setup" path="Commscope/py_sources/logigear/setup.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="LoginPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/login/LoginPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="LoginSgMailPageDesktop" path="Commscope/py_sources/logigear/page_objects/sgmail/login/LoginSgMailPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="MemorizedReportsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/reports/memorized_reports/MemorizedReportsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="MoveServicesPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/services/move_services/MoveServicesPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="OspCablingPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/osp_cabling/OspCablingPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="PatchingPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/patching/PatchingPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ProvideServicePageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/services/provide_service/ProvideServicePageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="QuareoDevicePageDesktop" path="Commscope/py_sources/logigear/page_objects/quareo_simulator/QuareoDevicePageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="QuareoUnmanagedConnectionsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/quareo_unmanaged_connections/QuareoUnmanagedConnectionsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RemoveCircuitPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/remove_circuit/RemoveCircuitPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ReplaceNetworkEquipmentPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/replace_network_equipment/ReplaceNetworkEquipmentPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ReportArchivePageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/reports/report_archive/ReportArchivePageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ReportsDialogDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/reports/ReportsDialogDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ReportsPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/reports/reports/ReportsPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RestoreDatabasePageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/tools/database_tools/RestoreDatabasePageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="SgMailPageDesktop" path="Commscope/py_sources/logigear/page_objects/sgmail/contents/SgMailPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="SimulatorApi" path="Commscope/py_sources/logigear/api/SimulatorApi.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="SiteManagerPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/SiteManagerPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="SNMPPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/snmp/SNMPPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="SynchronizationPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/synchronization/SynchronizationPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="UninstallPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/installation/UninstallPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="UpgradeToiPatchPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/connections/upgrade_to_ipatch/UpgradeToiPatchPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="WorkOrderHistoryPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/work_orders/work_order_history/WorkOrderHistoryPageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="WorkOrderQueuePageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/site_manager/work_orders/work_order_queue/WorkOrderQueuePageDesktop.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ZoneHeaderPageDesktop" path="Commscope/py_sources/logigear/page_objects/system_manager/zone_header/ZoneHeaderPageDesktop.py" dynamic="false"/>
+    <pythonpath>
+        <path location="py_sources"/>
+    </pythonpath>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+</projectConfiguration>

@@ -1,0 +1,26 @@
+[
+	{
+		"name": "removeAllPatchesRadio",
+		"locators": [
+			"_._:id=removeAllPatches"
+		]
+	},
+	{
+		"name": "selectPatchesRadio",
+		"locators": [
+			"_._:id=selectPatches"
+		]
+	},
+	{
+		"name": "removeCircuitIframe",
+		"locators": [
+			"_._:xpath=//div[@id='removeCircuitDialog']/iframe"
+		]
+	},
+	{
+		"name": "traceMapDiv",
+		"locators": [
+			"_._:xpath=//div[@id='trace']"
+		]
+	}
+]

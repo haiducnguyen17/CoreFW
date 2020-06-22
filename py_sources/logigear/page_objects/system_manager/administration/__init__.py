@@ -1,0 +1,3 @@
+from logigear.page_objects.system_manager.administration.AdministrationPageDesktop import AdministrationPageDesktop
+
+administration = AdministrationPageDesktop()

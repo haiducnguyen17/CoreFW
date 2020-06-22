@@ -1,0 +1,44 @@
+[
+	{
+		"name": "markCompleteBtn",
+		"locators": [
+			"_._:id=imgComplete"
+		]
+	},
+	{
+		"name": "markCompleteLnk",
+		"locators": [
+			"_._:id=liComplete"
+		]
+	},
+	{
+		"name": "woQueueGridIframe",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'WorkOrderCompleteTask.aspx')]"
+		]
+	},	
+	{
+		"name": "dynamicObjectOnWoQueueTbl",
+		"locators": [
+			"_._:xpath=//td[@aria-describedby='WorkOrderQueueGrid_OrderName' and normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "allChk",
+		"locators": [
+			"_._:id=cb_WorkOrderQueueGrid"
+		]
+	},
+	{
+		"name": "woQueueTbl",
+		"locators": [
+			"_._:xpath=//table[@id='WorkOrderQueueGrid']"
+		]
+	},
+	{
+		"name": "editBtn",
+		"locators": [
+			"_._:id=imgEdit"
+		]
+	}
+]

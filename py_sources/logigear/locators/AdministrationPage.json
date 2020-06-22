@@ -1,0 +1,92 @@
+[
+	{
+		"name": "addBtn",
+		"locators": [
+			"_._:id=imgAdd"
+		]
+	},
+	{
+		"name": "editBtn",
+		"locators": [
+			"_._:id=imgEdit"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:id=imgDelete"
+		]
+	},
+	{
+		"name": "saveBtn",
+		"locators": [
+			"_._:id=imgSave"
+		]
+	},
+	{
+		"name": "dynamicPageLabel",
+		"locators": [
+			"_._:xpath=//div[@id='app']//li[@class='title' and normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "uploadFileTxt",
+		"locators": [
+			"_._:xpath=//input[@type='file']"
+		]
+	},
+	{
+		"name": "dynamicClearingMethodExpandBtn",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][1]//div[contains(@class,'ivu-col-span')][1]//i"
+		]
+	},
+	{
+		"name": "dynamicSelectedClearingMethod",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][1]//div[contains(@class,'ivu-col-span')][1]//div[@class='ivu-select-dropdown']/ul[@class='ivu-select-dropdown-list']/li[normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicClearEntriesCbb",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][1]//div[contains(@class,'ivu-col-span')][2]//span"
+		]
+	},
+	{
+		"name": "dynamicSelectedClearEntriesLi",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][1]//div[contains(@class,'ivu-col-span')][2]//div[@class='ivu-select-dropdown']//ul[@class='ivu-select-dropdown-list']/li[normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicDaysReminderTxt",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][2]//div[contains(@class,'ivu-col-span')][1]//input"
+		]
+	},
+	{
+		"name": "dynamicSelectedDateTxt",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][2]//div[contains(@class,'ivu-col-span')][2]//input[@type='text']"
+		]
+	},
+	{
+		"name": "dynamicClearSelectedDateBtn",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][2]//div[contains(@class,'ivu-col-span')][2]//span[@class='ivu-input-suffix']/i"
+		]
+	},
+	{
+		"name": "dynamicDeleteLoggingBtn",
+		"locators": [
+			"_._:xpath=//div[@class='div-session-title' and span[normalize-space(text())='{0}']]/following-sibling::div/div[@class='ivu-row' and div[div[@class='span-control']]][2]//div[contains(@class,'ivu-col-span')][2]//input[@alt='Delete']"
+		]
+	},
+	{
+		"name": "dynamicTrackLoggingChk",
+		"locators": [
+			"_._:xpath=//label[contains(@class,'ivu-checkbox-wrapper') and normalize-space(text())='{0}']//input"
+		]
+	}
+]

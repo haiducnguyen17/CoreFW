@@ -1,0 +1,218 @@
+[
+	{
+		"name": "previousStep1Btn",
+		"locators": [
+			"_._:xpath=//input[contains(@id,'step1_Previous')]"
+		]
+	},
+	{
+		"name": "nextStep1Btn",
+		"locators": [
+			"_._:xpath=//input[contains(@id,'step1_Next')]"
+		]
+	},
+	{
+		"name": "nextOtherStepBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@id,'step') and (@style='' or @style='display: block;')]//input[contains(@id,'Next')]"
+		]
+	},
+	{
+		"name": "previousOtherStepBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@id,'step') and (@style='' or @style='display: block;')]//input[contains(@id,'Previous')]"
+		]
+	},
+	{
+		"name": "submitBtn",
+		"locators": [
+			"_._:xpath=//input[@id='step4_Submit']"
+		]
+	},
+	{
+		"name": "limitNotificationTimeEmailBtn",
+		"locators": [
+			"_._:xpath=//input[@id='btnLimitNotificationTimeEmail']"
+		]
+	},
+	{
+		"name": "limitNotificationTimeProgramBtn",
+		"locators": [
+			"_._:xpath=//input[@id='btnLimitNotificationTimeProgram']"
+		]
+	},
+	{
+		"name": "eventProfileNameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtProfileName']"
+		]
+	},
+	{
+		"name": "eventProfileDescriptionTxt",
+		"locators": [
+			"_._:xpath=//textarea[@id='txtProfileDesc']"
+		]
+	},
+	{
+		"name": "editExecuteProgramImg",
+		"locators": [
+			"_._:xpath=//img[@id='btnExeProgram']"
+		]
+	},
+	{
+		"name": "sendEmailChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxSendEmail']"
+		]
+	},
+	{
+		"name": "overrideSubjectChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxOverrideSubject']"
+		]
+	},
+	{
+		"name": "includeEventDetailscChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxIncludeEventDetails']"
+		]
+	},
+	{
+		"name": "limitNotificationTimeEmailChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxLimitNotificationTimeEmail']"
+		]
+	},
+	{
+		"name": "executeLocalServerProgramChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxExeProgram']"
+		]
+	},	
+	{
+		"name": "limitNotificationTimeProgramChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxLimitNotificationTimeProgram']"
+		]
+	},
+	{
+		"name": "useIntegrationServiceOnlyChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxUseIntegrationServiceOnly']"
+		]
+	},
+	{
+		"name": "sendTrapsChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxSendTraps']"
+		]
+	},
+	{
+		"name": "overrideSubjectTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtOverrideSubject']"
+		]
+	},
+	{
+		"name": "executeLocalServerProgramTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtExeProgram']"
+		]
+	},
+	{
+		"name": "limitNotificationTimeProgramTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtLimitNotificationTimeProgram']"
+		]
+	},
+	{
+		"name": "destinationServerTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtTrapServer']"
+		]
+	},
+	{
+		"name": "emailServerCbb",
+		"locators": [
+			"_._:xpath=//select[@id='selEmailServer']"
+		]
+	},
+	{
+		"name": "recipientsTxt",
+		"locators": [
+			"_._:xpath=//textarea[@id='txtRecipients']"
+		]
+	},
+	{
+		"name": "programParametersTxt",
+		"locators": [
+			"_._:xpath=//textarea[@id='txtProParameters']"
+		]
+	},
+	{
+		"name": "profileLocationTree",
+		"locators": [
+			"_._:xpath=//div[@id='dvLocationTree']"
+		]
+	},
+	{
+		"name": "profileEventsTbl",
+		"locators": [
+			"_._:xpath=//table[@id='EventListGrid']"
+		]
+	},
+	{
+		"name": "profileTbl",
+		"locators": [
+			"_._:xpath=//table[@id='NotificationProfileGrid']"
+		]
+	},
+	{
+		"name": "selectAllChk",
+		"locators": [
+			"_._:xpath=//input[@id='cb_EventListGrid']"
+		]
+	},	
+	{
+		"name": "dynamicEventChk",
+		"locators": [
+			"_._:xpath=//td[text()='{0}']/preceding::input[@type='checkbox'][1]"
+		]
+	},
+	{
+		"name": "includeEventDetailsChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxIncludeEventDetails']"
+		]
+	},
+	{
+		"name": "dynamicProfileNameCell",
+		"locators": [
+			"_._:xpath=//td[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "sendEmailChk",
+		"locators": [
+			"_._:xpath=//input[@id='cboxSendEmail']"
+		]
+	},
+	{
+		"name": "emailSeverSlb",
+		"locators": [
+			"_._:xpath=//select[@id='selEmailServer']"
+		]
+	},
+	{
+		"name": "recipientsTxt",
+		"locators": [
+			"_._:xpath=//textarea[@id='txtRecipients']"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgDelete']"
+		]
+	}
+]

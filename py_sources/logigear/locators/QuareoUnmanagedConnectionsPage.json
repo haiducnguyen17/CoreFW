@@ -1,0 +1,38 @@
+[
+	{
+		"name": "qUCIframe",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'QuareoUnmanagedConnections.aspx')]"
+		]
+	},
+	{
+		"name": "showRearPortLeftChk",
+		"locators": [
+			"_._:xpath=//input[@id='showRearPortsLeftCheckBox']"
+		]
+	},
+	{
+		"name": "showRearPortRightChk",
+		"locators": [
+			"_._:xpath=//input[@id='showRearPortsRightCheckBox']"
+		]
+	},
+	{
+		"name": "filterList",
+		"locators": [
+			"_._:xpath=//select[@id='sltFilter']"
+		]
+	},
+	{
+		"name": "treeFromDiv",
+		"locators": [
+			"_._:xpath=//div[@id='patchingFrom']//div[@id='leftTree']"
+		]
+	},
+	{
+		"name": "treeToDiv",
+		"locators": [
+			"_._:xpath=//div[@id='patchingTo']//div[@id='rightTree']"
+		]
+	}
+]

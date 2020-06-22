@@ -1,0 +1,9 @@
+[
+	{
+		"name": "circuitTraceMapDiv",
+		"locators": [
+			"_._:xpath=//div[@id='TraceResult']"
+		]
+	}
+]
+

@@ -1,0 +1,32 @@
+[
+	{
+		"name": "moveTreeDiv",
+		"locators": [
+			"_._:xpath=//div[@id='divMoveTree']"
+		]
+	},
+	{
+		"name": "viewFilterCbb",
+		"locators": [
+			"_._:id=sView"
+		]
+	},
+	{
+		"name": "moveBtn",
+		"locators": [
+			"_._:id=imgMove"
+		]
+	},
+	{
+		"name": "viewServiceFilterCbb",
+		"locators": [
+			"_._:id=sViewService"
+		]
+	},
+	{
+		"name": "selectObjectTbl",
+		"locators": [
+			"_._:xpath=//table[@id='tbObjects']"
+		]
+	}
+]

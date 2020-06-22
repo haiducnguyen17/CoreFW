@@ -1,0 +1,32 @@
+[
+	{
+		"name": "cableTemplateCbb",
+		"locators": [
+			"_._:id=cableTemplateId"
+		]
+	},
+	{
+		"name": "cableSerialNumberTxt",
+		"locators": [
+			"_._:id=cableSerialNumber"
+		]
+	},
+	{
+		"name": "generateBtn",
+		"locators": [
+			"_._:id=generate"
+		]
+	},
+	{
+		"name": "headsTextarea",
+		"locators": [
+			"_._:xpath=(//th[normalize-space(text())='Heads']/ancestor::table//textarea)"
+		]
+	},
+	{
+		"name": "tailsTextarea",
+		"locators": [
+			"_._:xpath=(//th[normalize-space(text())='Tails']/ancestor::table//textarea)"
+		]
+	}
+]

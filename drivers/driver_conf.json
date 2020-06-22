@@ -1,0 +1,57 @@
+{
+  "chrome_local": {
+    "remote_host": "",
+    "platform": "desktop",
+    "browser": "Chrome",
+    "executable": "grid/drivers/win/chromedriver.exe",
+    "capabilities": {},
+    "options": {},
+    "arguments": []
+  },
+    "chrome_local_headless": {
+    "remote_host": "",
+    "platform": "desktop",
+    "browser": "Chrome",
+    "executable": "",
+    "capabilities": {},
+    "options": {},
+    "arguments": ["--headless"]
+  },
+  "chrome_remote": {
+    "remote_host": "http://192.168.170.89:4445/wd/hub",
+    "platform": "desktop",
+    "browser": "Chrome",
+    "executable": "",
+    "capabilities": {
+      "browserName": "chrome",
+      "platform": "any",
+      "version": ""
+    },
+    "options": {},
+    "arguments": []
+  },
+  "firefox_local": {
+    "remote_host": "",
+    "platform": "desktop",
+    "browser": "Firefox",
+    "executable": "",
+    "capabilities": {},
+    "options": {},
+    "arguments": []
+  },
+  "android_browser": {
+    "remote_host": "http://192.168.189.206:4723/wd/hub",
+    "platform": "mobile",
+    "browser": "Chrome",
+    "executable": "",
+    "capabilities": {
+      "browserName": "Chrome",
+      "platformName": "Android",
+      "deviceName": "Samsung Galaxy S7",
+      "unicodeKeyboard": true,
+      "resetKeyboard": true
+    },
+    "options": {},
+    "arguments": []
+  }
+}

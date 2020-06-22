@@ -1,0 +1,92 @@
+[
+	{
+		"name": "dynamicConnectionType",
+		"locators": [
+			"_._:xpath=//div[contains(@class,'connectionType') and ((contains(@id,'{0}') and not(contains(@class,'disabledConnType'))) or (contains(@style,'{1}.png') and not(@disabledstyle='1')))]"
+		]
+	},
+	{
+		"name": "dynamicMpoBranch",
+		"locators": [
+			"_._:xpath=//span[contains(@class,'branch') and text()='{0}']"
+		]
+	},
+	{
+		"name": "dynamicConnectionBtn",
+		"locators": [
+			"_._:xpath=//input[@id='btn{0}']"
+		]
+	},
+	{
+		"name": "dynamicViewTab",
+		"locators": [
+			"_._:xpath=//a[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "cablingFrame",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'DocumentCabling.aspx')]"
+		]
+	},
+	{
+		"name": "cabTreeFromDiv",
+		"locators": [
+			"_._:xpath=//div[@id='dvCableFrom']"
+		]
+	},
+	{
+		"name": "cabTreeToDiv",
+		"locators": [
+			"_._:xpath=//div[@id='dvCableTo']"
+		]
+	},
+	{
+		"name": "cabCancelBtn",
+		"locators": [
+			"_._:xpath=//span[@id='ui-dialog-title-CablingDialog']//li[@id='cancel']"
+		]
+	},
+	{
+		"name": "dynamicSelectedConnectionType",
+		"locators": [
+			"_._:xpath=//div[(@id='selectedConnectionType' or @id='divAssembly') and contains(@style,'{0}') or contains(@class,'divAssembly_{0}')]"
+		]
+	},
+	{
+		"name": "connectionTabs",
+		"locators": [
+			"_._:xpath=//div[@id='cablingTabs' or @id='tabs']"
+		]
+	},
+	{
+		"name": "dynamicDisabledConnectionType",
+		"locators": [
+			"_._:xpath=//div[contains(@class,'connectionType') and ((contains(@id,'{0}') and contains(@class,'disabledConnType')) or (contains(@style,'{1}.png') and (@disabledstyle='1')))]"
+		]
+	},
+	{
+		"name": "createWoChk",
+		"locators": [
+			"_._:xpath=//input[@id='createWorkOrder']"
+		]
+	},
+	{
+		"name": "dynamicMpoPortTypeIcon",
+		"locators": [
+			"_._:{0}/span[text()='{1}']"
+		]
+	},
+	{
+		"name": "cableFromPathDiv",
+		"locators": [
+			"_._:id=dvCableFromPath"
+		]
+	},
+	{
+		"name": "cableToPathDiv",
+		"locators": [
+			"_._:id=dvCableToPath"
+		]
+	}
+]

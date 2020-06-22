@@ -1,0 +1,32 @@
+** Welcome to Commscope Automation **
+
+Installation instructions. 
+* Use Window 10 with Python 3.8 and Java 8.
+* Set system environment variable PYTHONPATH = [python folder path] (i.e C:\Python38-32)
+
+* Using PIP
+  * curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  * python get-pip.py
+     * Or Install PIP from https://pypi.python.org/pypi/pip
+  * pip install --upgrade pip 
+  
+* Supported Chrome version for UI testing is 80.0.3987.132 and above 
+
+* Setting up
+  * cd [work space path]/Commscope
+  * pip install -r requirements.txt
+
+* How to run a test
+  * Test must run from ~/Commscope directory.
+    * Example: robot --variable CONFIGFILE:drivers/driver_conf.json --variable CONFIGKEY:chrome_local --pythonpath py_sources path/to/tests
+	* CONFIGKEY: selected browser and platform for test execution, key is found in CONFIGFILE ex: ~/Commscope/drivers/driver_conf.json
+ * Run test via text file:
+	robot --prerunmodifier logigear.core.helpers.test_collector.TestCollector:testfile.txt --variable CONFIGFILE:drivers/driver_conf.json --variable CONFIGKEY:chrome_local --pythonpath py_sources tests
+	* text file contains the test cases name
+Coding guidelines
+* For python code indentation, only four spaces can be used. No tabs are allowed. If existing code does not follow this, it needs to be fixed.  
+* Class method names should have _ between words if consisting of multiple words
+* Class names should start with uppercase letter and if it has multiple words, each word needs to start with uppercase. 
+* Function calls should also include the module name if applicable. 
+* All codes need to be tested and debugged before submitting for review.  
+

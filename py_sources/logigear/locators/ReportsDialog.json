@@ -1,0 +1,56 @@
+[
+	{
+		"name": "reportsTab",
+		"locators": [
+			"_._:id=liCustomReports"
+		]
+	},
+	{
+		"name": "memorizeReportsTab",
+		"locators": [
+			"_._:id=liMemorizedReports"
+		]
+	},
+	{
+		"name": "reportArchiveTab",
+		"locators": [
+			"_._:id=liArchiveReports"
+		]
+	},
+	{
+		"name": "dashboardsTab",
+		"locators": [
+			"_._:id=liManageDashboard"
+		]
+	},
+	{
+		"name": "addBtn",
+		"locators": [
+			"_._:id=imgAdd"
+		]
+	},
+	{
+		"name": "editBtn",
+		"locators": [
+			"_._:id=imgEdit"
+		]
+	},
+	{
+		"name": "viewBtn",
+		"locators": [
+			"_._:id=imgView"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:id=imgDelete"
+		]
+	},
+	{
+		"name": "viewReportTbl",
+		"locators": [
+			"_._:xpath=//table[@id='resultGrid']"
+		]
+	}
+]

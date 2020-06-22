@@ -1,0 +1,8 @@
+[
+	{
+		"name": "allowCrossZonePatchingChk",
+		"locators": [
+			"_._:xpath=//input[@id='chkAllowCrossZonePatching']"
+		]
+	}	
+]

@@ -1,0 +1,20 @@
+[
+  {
+  	"name": "syncStatusIframe",
+  	"locators": [
+  	  "_._:xpath=//iframe[@src='../Aspx/iPatchSyncStatusDialog.aspx']"
+  	]
+  },
+  {
+  	"name": "syncStatusTbl",
+  	"locators": [
+  	  "_._:xpath=//div[@id='gview_SyncStatusGrid']//table[@id='SyncStatusGrid']"
+  	]
+  },
+  {
+  	"name": "refreshBtn",
+  	"locators": [
+  	  "_._:xpath=//a[@id='imgRefresh']"
+  	]
+  }
+]

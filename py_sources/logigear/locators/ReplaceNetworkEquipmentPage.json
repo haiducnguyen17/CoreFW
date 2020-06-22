@@ -1,0 +1,20 @@
+[
+  {
+    "name": "rneIframe",
+    "locators": [
+      "_._:xpath=//iframe[contains(@src,'ReplaceNetworkEquipment.aspx')]"
+    ]
+  },
+  {
+    "name": "treefromDiv",
+    "locators": [
+      "_._:xpath=//div[@id='TransferFrom']//div[@id='dvTransferFrom']"
+    ]
+  },
+  {
+    "name": "treetoDiv",
+    "locators": [
+      "_._:xpath=//div[@id='TransferTo']//div[@id='dvTransferTo']"
+    ]
+  }
+]

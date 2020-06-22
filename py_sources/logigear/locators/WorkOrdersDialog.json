@@ -1,0 +1,134 @@
+[
+	{
+		"name": "dynamicTaskName",
+		"locators": [
+			"_._:xpath=//div[@id='SummaryDetailsDiv']//div[{0}]/table//tr[1]/td[1][contains(text(),'{1}')]"
+		]
+	},
+	{
+		"name": "dynamicTaskType",
+		"locators": [
+			"_._:xpath=//div[@id='SummaryDetailsDiv']//div[{0}]/table//tr[1]/td[2]/label[contains(text(),'{1}')]"
+		]
+	},	
+	{
+		"name": "dynamicTaskTreeFrom",
+		"locators": [
+			"_._:xpath=//div[@id='SummaryDetailsDiv']//div[{0}]/table//tr[2]/td[1][contains(text(),'{1}')]"
+		]
+	},
+	{
+		"name": "dynamicTaskConnectType",
+		"locators": [
+			"_._:xpath=//div[@id='SummaryDetailsDiv']//div[{0}]/table//tr[3]/td[1]/img[contains(@src,'{1}')]"
+		]
+	},
+	{
+		"name": "dynamicTaskTreeTo",
+		"locators": [
+			"_._:xpath=//div[@id='SummaryDetailsDiv']//div[{0}]/table//tr[4]/td[1][contains(text(),'{1}')]"
+		]
+	},
+	{
+		"name": "woNameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Name']"
+		]
+	},
+	{
+		"name": "summaryTxt",
+		"locators": [
+			"_._:id=Summary"
+		]
+	},
+	{
+		"name": "priorityCbb",
+		"locators": [
+			"_._:id=Priority"
+		]
+	},
+	{
+		"name": "schedulingCbb",
+		"locators": [
+			"_._:id=Scheduling"
+		]
+	},
+	{
+		"name": "onHoldChk",
+		"locators": [
+			"_._:id=On_Hold"
+		]
+	},
+	{
+		"name": "showBtn",
+		"locators": [
+			"_._:id=aShow"
+		]
+	},
+	{
+		"name": "technicianCbb",
+		"locators": [
+			"_._:xpath=//select[@id='ddlTechnican']"
+		]
+	},
+	{
+		"name": "earliestDateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Earliest_Date']"
+		]
+	},
+	{
+		"name": "latestDateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Latest_Date']"
+		]
+	},
+	{
+		"name": "inactivityAlertChk",
+		"locators": [
+			"_._:xpath=//input[@id='Inactivity_Alert_checkbox']"
+		]
+	},
+	{
+		"name": "inactivityAlertTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Inactivity_Alert']"
+		]
+	},
+	{
+		"name": "woQueueIframe",
+		"locators": [
+			"_._:xpath=(//div[@id='WorkOrderQueueDialog']//iframe[1])"
+		]
+	},
+	{
+		"name": "workTypeTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Work_Type']"
+		]
+	},
+	{
+		"name": "createdByTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Created_By']"
+		]
+	},
+	{
+		"name": "dateCreatedTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Latest_Date']"
+		]
+	},
+	{
+		"name": "expectedDateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Expected_Date']"
+		]
+	},
+	{
+		"name": "additionalInformationTxt",
+		"locators": [
+			"_._:id=Additional_Information"
+		]
+	}		
+]

@@ -1,0 +1,375 @@
+[
+	{
+		"name": "reportsTitle",
+		"locators": [
+			"_._:xpath=//li[@class='title' and normalize-space(text())='Reports']"
+		]
+	},
+	{
+		"name": "nextBtn",
+		"locators": [
+			"_._:id=liNext"
+		]
+	},
+	{
+		"name": "nameTxt",
+		"locators": [
+			"_._:id=txtReportTitle"
+		]
+	},
+	{
+		"name": "descriptionTxt",
+		"locators": [
+			"_._:id=txtDescription"
+		]
+	},
+	{
+		"name": "okBtn",
+		"locators": [
+			"_._:xpath=//input[@id='imgOK']"
+		]
+	},
+	{
+		"name": "cancelBtn",
+		"locators": [
+			"_._:xpath=//li[@class='CmdCancel']"
+		]
+	},
+	{
+		"name": "categoryTbl",
+		"locators": [
+			"_._:xpath=//table[@id='categoryResult']"
+		]
+	},
+	{
+		"name": "selectReportTbl",
+		"locators": [
+			"_._:xpath=//table[@id='reportResult']"
+		]
+	},
+	{
+		"name": "ReportDialog",
+		"locators": [
+			"_._:xpath=//div[@id='ConfirmTwoChoiceDialog']"
+		]
+	},
+	{
+		"name": "yesConfirmLnk",
+		"locators": [
+			"_._:xpath=//div[@class='PopupContentConfirm' and normalize-space(text())='Yes']"
+		]
+	},
+	{
+		"name": "noConfirmLnk",
+		"locators": [
+			"_._:xpath=//div[@class='PopupContentConfirm' and normalize-space(text())='No']"
+		]
+	},
+	{
+		"name": "confirmDialog",
+		"locators": [
+			"_._:xpath=//div[@id='GenerateConfirmDialog']"
+		]
+	},
+	{
+		"name": "yesGenerateLnk",
+		"locators": [
+			"_._:xpath=//label[@id='lblGeneConfirmOK']"
+		]
+	},
+	{
+		"name": "noGenerateLnk",
+		"locators": [
+			"_._:xpath=//label[@id='lblGeneConfirmCancel']"
+		]
+	},
+	{
+		"name": "dynamicCategoryReportType",
+		"locators": [
+			"_._:xpath=//td[normalize-space(text())='{0}']"
+		]
+	}
+	,
+	{
+		"name": "dynamicTextFilter",
+		"locators": [
+			"_._:{0}/following::input[@type='text'][1]"
+		]
+	},
+	{
+		"name": "dynamicSelectFilter",
+		"locators": [
+			"_._:{0}/following::select[1]"
+		]
+	},
+	{
+		"name": "dynamicLabelSelectFilter",
+		"locators": [
+			"_._:xpath=//label[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "dynamicMultiSelectAddBtn",
+		"locators": [
+			"_._:{0}/following::div[@class='Buttons'][1]/a[@class='Add']"
+		]
+	},
+	{
+		"name": "dynamicMultiSelectAddAllBtn",
+		"locators": [
+			"_._:{0}/following::div[@class='Buttons'][1]/a[@class='AddAll']"
+		]
+	},
+	{
+		"name": "dynamicMultiSelectFilter",
+		"locators": [
+			"_._:{0}/following::div[@class='Container']//a[normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicMultiSelectRemoveBtn",
+		"locators": [
+			"_._:{0}/following::div[@class='Buttons'][1]/a[@class='Remove']"
+		]
+	},
+	{
+		"name": "dynamicMultiSelectRemoveAllBtn",
+		"locators": [
+			"_._:{0}/following::div[@class='Buttons'][1]/a[@class='RemoveAll']"
+		]
+	},
+	{
+		"name": "dynamicObjectMultiSelect",
+		"locators": [
+			"_._:{0}/following::div[@class='Container' and label[text()='{1}']]//a[normalize-space(text())='{2}']"
+		]
+	},
+	{
+		"name": "locationTreeDiv",
+		"locators": [
+			"_._:xpath=//div[@id='dvLocationTree']"
+		]
+	},
+	{
+		"name": "dateFilterCbb",
+		"locators": [
+			"_._:id=selDateFlter"
+		]
+	},
+	{
+		"name": "earliestDateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtEarliestDate']"
+		]
+	},
+	{
+		"name": "latestDateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtLatestDate']"
+		]
+	},
+	{
+		"name": "editLayoutContentTbl",
+		"locators": [
+			"_._:xpath=//table[@class='CustomReportBodyColumn']"
+		]
+	},
+	{
+		"name": "okViewReportBtn",
+		"locators": [
+			"_._:id=imgOK"
+		]
+	},
+	{
+		"name": "printBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgPrint']"
+		]
+	},
+	{
+		"name": "emailReportBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgEmail']"
+		]
+	},
+	{
+		"name": "memorizeReportBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgMemorized']"
+		]
+	},
+	{
+		"name": "reportHeaderTbl",
+		"locators": [
+			"_._:xpath=//div[@id='divReportHeader']/table"
+		]
+	},
+	{
+		"name": "reportContentTbl",
+		"locators": [
+			"_._:xpath=//table[@id='resultGrid']"
+		]
+	},
+	{
+		"name": "reportSaveBtn",
+		"locators": [
+			"_._:id=liMemoSave"
+		]
+	},
+	{
+		"name": "reportCancelBtn",
+		"locators": [
+			"_._:id=CmdCancelMemo"
+		]
+	},
+	{
+		"name": "reportNameTxt",
+		"locators": [
+			"_._:id=txtMemReportName"
+		]
+	},
+	{
+		"name": "reportDescriptionTxt",
+		"locators": [
+			"_._:id=PopupPlaceHolder_txtMemReportDesc"
+		]
+	},
+	{
+		"name": "accessCbb",
+		"locators": [
+			"_._:id=selMemReportAccess"
+		]
+	},
+	{
+		"name": "scheduleReportChk",
+		"locators": [
+			"_._:id=chkSchedule"
+		]
+	},
+	{
+		"name": "emailReportsChk",
+		"locators": [
+			"_._:id=txtStartTimeRight"
+		]
+	},
+	{
+		"name": "hoursTxt",
+		"locators": [
+			"_._:id=txtStartTimeLeft"
+		]
+	},
+	{
+		"name": "minutesTxt",
+		"locators": [
+			"_._:id=txtStartTimeRight"
+		]
+	},
+	{
+		"name": "emailServerCbb",
+		"locators": [
+			"_._:id=selEmailServer"
+		]
+	},
+	{
+		"name": "recipientsTxt",
+		"locators": [
+			"_._:id=PopupPlaceHolder_txtTo"
+		]
+	},
+	{
+		"name": "subjectTxt",
+		"locators": [
+			"_._:id=txtSubject"
+		]
+	},
+	{
+		"name": "messageTxt",
+		"locators": [
+			"_._:id=PopupPlaceHolder_txtMessage"
+		]
+	},
+	{
+		"name": "locationSaveReportPath",
+		"locators": [
+			"_._:id=PopupPlaceHolder_txtMessage"
+		]
+	},
+	{
+		"name": "memorizeDurationTxt",
+		"locators": [
+			"_._:id=txtMemDuration"
+		]
+	},
+	{
+		"name": "headEventReportRow",
+		"locators": [
+			"_._:xpath=//table[@id='resultGrid']//tr"
+		]
+	},
+	{
+		"name": "dynamicEventReportInfo",
+		"locators": [
+			"_._:[td[normalize-space(text())='{0}']]"
+		]
+	},
+	{
+		"name": "dynamicEventReportDetails",
+		"locators": [
+			"_._:[*[contains(.,'{0}')]]"
+		]
+	},
+	{
+		"name": "editLayoutHeaderFooterLeftDiv",
+		"locators": [
+			"_._://div[@id='divLeftFilter']"
+		]
+	},
+	{
+		"name": "editLayoutContentLeftDiv",
+		"locators": [
+			"_._://div[@id='divLeftFields']"
+		]
+	},
+	{
+		"name": "editLayoutHeaderTbl",
+		"locators": [
+			"_._://table[@id='tableHeader']"
+		]
+	},
+	{
+		"name": "dynamicItemSource",
+		"locators": [
+			"_._:{0}//div[normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicExpandedItemSource",
+		"locators": [
+			"_._:{0}//div[normalize-space(text())='{1}']/following-sibling::div[normalize-space(text())='{2}']"
+		]
+	},
+	{
+		"name": "editLayoutFooterTbl",
+		"locators": [
+			"_._://table[@id='tableFooter']"
+		]
+	},
+	{
+		"name": "dynamicItemDestination",
+		"locators": [
+			"_._:xpath=({0}/div[normalize-space(text())='{1}'] | {2}//div[div[normalize-space(text())='{3}']])/following::*[1]"
+		]
+	},
+	{
+		"name": "reportTbl",
+		"locators": [
+			"_._:xpath=//table[@id='CustomReportGrid']"
+		]
+	},
+	{
+		"name": "dynamicComboboxFilter",
+		"locators": [
+			"_._:xpath=//label[text()='{0}']/following::select[1]/option[text()='{1}']"
+		]
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "leftTreeDiv",
+		"locators": [
+			"_._:xpath=//div[@id='leftTree']"
+		]
+	},
+	{
+		"name": "rightTreeDiv",
+		"locators": [
+			"_._:xpath=//div[@id='rightTree']"
+		]
+	},
+	{
+		"name": "expectedServiceCbb",
+		"locators": [
+			"_._:id=RightPlaceHolder_ddlService"
+		]
+	},
+	{
+		"name": "expectedServiceDesignationCbb",
+		"locators": [
+			"_._:id=RightPlaceHolder_ddlServiceDesignation"
+		]
+	},
+	{
+		"name": "expectedRouteDesignationCbb",
+		"locators": [
+			"_._:id=RightPlaceHolder_ddlRouteDesignation"
+		]
+	},
+	{
+		"name": "expectedPoETypeCbb",
+		"locators": [
+			"_._:id=ddlPoE"
+		]
+	},
+	{
+		"name": "serviceIframe",
+		"locators": [
+			"_._:xpath=//div[contains(@style,'display: block')]//div[(contains(@class,'ServiceDialog') or contains(@id,'ServiceDialog') or contains(@id,'ServerDialog')) and not(contains(@style,'display: none'))]//iframe"
+		]
+	},
+	{
+		"name": "connectBtn",
+		"locators": [
+			"_._:id=btnConnect"
+		]
+	}
+]

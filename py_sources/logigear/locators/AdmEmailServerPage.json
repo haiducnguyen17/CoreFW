@@ -1,0 +1,62 @@
+[
+	{
+		"name": "nameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtName']"
+		]
+	},
+	{
+		"name": "descriptionTxt",
+		"locators": [
+			"_._:xpath=//textarea[@id='PopupPlaceHolder_txtDesc']"
+		]
+	},
+	{
+		"name": "systemManagerEmailServerTbl",
+		"locators": [
+			"_._:xpath=//table[@id='EmailServerGrid']"
+		]
+	},
+	{
+		"name": "emailFromTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtEmailFrom']"
+		]
+	},
+	{
+		"name": "emailServerTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtEmailServer']"
+		]
+	},
+	{
+		"name": "smtpPortNumberTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtPortNO']"
+		]
+	},
+	{
+		"name": "AuthenticationChk",
+		"locators": [
+			"_._:xpath=//input[@id='chkAuthen']"
+		]
+	},
+	{
+		"name": "saveBtn",
+		"locators": [
+			"_._:xpath=//li[@id='imgPopupSave']"
+		]
+	},
+	{
+		"name": "dynamicEmailNameLbl",
+		"locators": [
+			"_._:xpath=//td[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgDelete']"
+		]
+	}	
+]

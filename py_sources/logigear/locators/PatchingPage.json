@@ -1,0 +1,86 @@
+[
+	{
+		"name": "treeFromDiv",
+		"locators": [
+			"_._:xpath=//div[@id='patchingFrom']//div[@id='leftTree']"
+		]
+	},
+	{
+		"name": "treeToDiv",
+		"locators": [
+			"_._:xpath=//div[@id='patchingTo']//div[@id='rightTree']"
+		]
+	},
+	{
+		"name": "completePatchBtn",
+		"locators": [
+			"_._:xpath=//span[@id='ui-dialog-title-patchingTaskDialog']//li[@id='ok']"
+		]
+	},
+	{
+		"name": "patchingIframe",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'PatchingTask.aspx')]"
+		]
+	},
+	{
+		"name": "patchingTraceDiv",
+		"locators": [
+			"_._:xpath=//div[@id='divTrace']"
+		]
+	},
+	{
+		"name": "dynamicTaskName",
+		"locators": [
+			"_._:xpath={0}//tr[1]/td[1][normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicTaskType",
+		"locators": [
+			"_._:xpath={0}//tr[1]/td[2][normalize-space(text())='{1}']"
+		]
+	},	
+	{
+		"name": "dynamicTaskTreeFrom",
+		"locators": [
+			"_._:xpath={0}//tr[2]/td[1][normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicTaskConnectType",
+		"locators": [
+			"_._:xpath={0}//tr[3]/td[1]/img[contains(@src,'{1}')]"
+		]
+	},
+	{
+		"name": "dynamicTaskTreeTo",
+		"locators": [
+			"_._:xpath={0}//tr[4]/td[1][normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicTaskListTable",
+		"locators": [
+			"_._://table[contains(@class, 'taskListTable')][{0}]"
+		]
+	},
+	{
+		"name": "statusFromDiv",
+		"locators": [
+			"_._://div[@id='patchingFrom']//div[@id='leftStatus']"
+		]
+	},
+	{
+		"name": "statusToDiv",
+		"locators": [
+			"_._://div[@id='patchingTo']//div[@id='rightStatus']"
+		]
+	},
+	{
+		"name": "dynamicPortStatus",
+		"locators": [
+			"_._:xpath={0}//span[@class='status' and text()='Status: {1}']"
+		]
+	}
+]

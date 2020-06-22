@@ -1,0 +1,80 @@
+[
+	{
+		"name": "woNameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='Name']"
+		]
+	},
+	{
+		"name": "woIframe",
+		"locators": [
+			"_._:xpath=(//div[contains(@style,'block')]/div[contains(@id,'ResultDialog') or contains(@id,'WorkOrder') or @id='moveServiceDialog' or @id='DecommissionServerDialog']//iframe[1])"
+		]
+	},
+	{
+		"name": "summaryTxt",
+		"locators": [
+			"_._:id=Summary"
+		]
+	},
+	{
+		"name": "priorityCbb",
+		"locators": [
+			"_._:id=Priority"
+		]
+	},
+	{
+		"name": "schedulingCbb",
+		"locators": [
+			"_._:id=Scheduling"
+		]
+	},
+	{
+		"name": "onHoldChk",
+		"locators": [
+			"_._:id=On_Hold"
+		]
+	},
+	{
+		"name": "showBtn",
+		"locators": [
+			"_._:id=aShow"
+		]
+	},
+	{
+		"name": "technicianCbb",
+		"locators": [
+			"_._:xpath=//select[@id='ddlTechnican']"
+		]
+	},
+	{
+		"name": "conclusionDiv",
+		"locators": [
+			"_._:xpath=//div[@id='conclusion']"
+		]
+	},
+	{
+		"name": "showTraceBtn",
+		"locators": [
+			"_._:id=aShow"
+		]
+	},
+	{
+		"name": "traceMapDiv",
+		"locators": [
+			"_._:xpath=//div[@id='trace']"
+		]
+	},
+	{
+		"name": "editWOIframe",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'WorkOrderEdit.aspx')]"
+		]
+	},
+	{
+		"name": "saveEditBtn",
+		"locators": [
+			"_._:xpath=//li[@id='imgPopupSave']"
+		]
+	}
+]

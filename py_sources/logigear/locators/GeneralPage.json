@@ -1,0 +1,368 @@
+[
+	{
+		"name": "processingIcon",
+		"locators": [
+			"_._:xpath=//div[(@id='preLoadDiv' or @id='loading') and contains(@style,'display: block') and //img[contains(@src,'In_Progress.gif')]]"
+		]
+	},
+	{
+		"name": "uniqueIframe",
+		"locators": [
+			"_._:xpath=(//div[@id='MasterRightContent']//iframe)[1]"
+		]
+	},
+	{
+		"name": "secondIframe",
+		"locators": [
+			"_._:xpath=(//div[@id='SiteManagerDialog']//iframe)[1]"
+		]
+	},
+	{
+		"name": "addBtn",
+		"locators": [
+			"_._:id=imgAdd"
+		]
+	},
+	{
+		"name": "confirmDialogBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@style, 'display: block') and not(contains(@style, 'visibility: hidden'))][last()]//li[@class='CmdSave' and not(@style='display:none')]"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:id=liDelete"
+		]
+	},
+	{
+		"name": "dynamic2ClassTabsCurrentTraceDiv",
+		"locators": [
+			"_._:{0}//div[@style='display: block;']/div[@class='PairResultWraper ']//div[starts-with(@id,'CurrentTraceResult_')]//div[@class='TraceForFiberWrapper' and contains(@style,'display: block')]"
+		]
+	},
+	{
+		"name": "dynamic2ClassTabsScheduledTraceDiv",
+		"locators": [
+			"_._:{0}//div[@style='display: block;']/div[@class='PairResultWraper ']//div[starts-with(@id,'ScheduledTraceResult_')]//div[@class='TraceForFiberWrapper' and contains(@style,'display: block')]"
+		]
+	},
+	{
+		"name": "dynamicNormalCurrentTraceDiv",
+		"locators": [
+			"_._:{0}//div[@style='display: block;']/div[@class='PairResultWraper ']//div[starts-with(@id,'CurrentTraceResult_')]"
+		]
+	},
+	{
+		"name": "dynamicNormalScheduleTraceDiv",
+		"locators": [
+			"_._:{0}//div[@style='display: block;']/div[@class='PairResultWraper ']//div[starts-with(@id,'ScheduledTraceResult_')]"
+		]
+	},
+	{
+		"name": "dynamicFirstTraceDiv",
+		"locators": [
+			"_._:{0}//div[(@class='CurrentTraceResult' and not(contains(@style,'display: none'))) or (@class='ScheduledTraceResult' and contains(@style,'display: block'))]//div[@class='TraceForFiberWrapper' and not(contains(@style,'display: none'))]"
+		]
+	},
+	{
+		"name": "dynamicManyTabsTraceDiv",
+		"locators": [
+			"_._:{0}//div[contains(@class,'MPOPairContent MpoPair') and contains(@style,'display: block')]//div[@class = 'TraceForFiberWrapper' and contains(@style,'display: block')]"
+		]
+	},
+	{
+		"name": "dynamicTwoTabsClassCurrentTraceDiv",
+		"locators": [
+			"_._:{0}//div[@class='CurrentTraceResult']//div[contains(@class,'MPOPairContent MpoPair') and contains(@style,'display: block')]"
+		]
+	},
+	{
+		"name": "dynamicTwoTabsClassScheduledTraceDiv",
+		"locators": [
+			"_._:{0}//div[@class='ScheduledTraceResult']//div[contains(@class,'MPOPairContent MpoPair') and contains(@style,'display: block')]"
+		]
+	},
+	{
+		"name": "dynamicScheduledMapXpath",
+		"locators": [
+			"_._:{0}//div[starts-with(@id,'ScheduledTraceResult_') and not(@style='display: none;')]"
+		]
+	},
+	{
+		"name": "dynamicTraceMapXpath",
+		"locators": [
+			"_._:{0}//div[starts-with(@id,'CurrentTraceResult_') and not(@style='display: none;')]"
+		]
+	},
+	{
+		"name": "dynamicInformationXpath",
+		"locators": [
+			"_._:{0}/div[@class = 'ObjectDetailHierarchy']//div[@class = 'ObjectDetailItem' or @class = 'DetailTextOfServiceBox'][{1}][normalize-space(text()) = '{2}' or @title = '{3}']"
+		]
+	},
+	{
+		"name": "dynamicObjectXpath",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']"
+		]
+	},
+	{
+		"name": "dynamicObjectPositionXpath",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/div[@class='ObjectDetailHeader']//div[normalize-space(text())='{2}']"
+		]
+	},
+	{
+		"name": "dynamicSinceNoSpace",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/div[@class='ObjectDetailHeader']//div[normalize-space(text())='since:{2}']"
+		]
+	},
+	{
+		"name": "treeObjectIcon",
+		"locators": [
+			"_._:{0}//ins[contains(@style,'{1}')]"
+		]
+	},
+	{
+		"name": "dynamicSinceWithSpace",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/div[@class='ObjectDetailHeader']//div[normalize-space(text())='since: {2}']"
+		]
+	},
+	{
+		"name": "dynamicMpoTypeXpath",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/div[@class='ObjectDetailHeader']//div[@class='ObjectNameWithFiberCount']/div[text()='{2}']"
+		]
+	},
+	{
+		"name": "dynamicObjectPathXpath",
+		"locators": [
+			"_._:{0}//div[@class='ObjectPathBanner' and normalize-space(text())='{1}']"
+		]
+	},
+	{
+		"name": "dynamicObjectTypeXpath",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/preceding-sibling::div[@class='ParentObject']/img[contains(@src,'{2}')]"
+		]
+	},
+	{
+		"name": "dynamicPortIconXpath",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/div[@class='ObjectDetailHeader']//img[contains(@src,'{2}')]"
+		]
+	},
+	{
+		"name": "dynamicConnectionTypeXpath",
+		"locators": [
+			"_._:{0}//div[@class='Connector'][{1}]/img[contains(@src,'{2}')]"
+		]
+	},
+	{
+		"name": "dynamicScheduleIconXpath",
+		"locators": [
+			"_._:{0}//div[(@class='ObjectDetail' or @class='ObjectDetail ObjectDetailHighlight') and @id ='{1}']/following-sibling::div[@class='ScheduledIcon']/img[contains(@src,'{2}')]"
+		]
+	},
+	{
+		"name": "dynamicForwardBtnXpath",
+		"locators": [
+			"_._:{0}//span[@class='trace-tabs-nav-next' and contains(@style,'display: block')]//i[@class = 'trace-icon trace-nav-next-icon ivu-icon-ios-arrow-forward']"
+		]
+	},
+	{
+		"name": "dynamicTabXpath",
+		"locators": [
+			"_._:{0}//div[@class='trace-tabs-nav']//div[(normalize-space(text())='{1}' or normalize-space(@title)='{2}')]"
+		]
+	},
+	{
+		"name": "dynamicCurrentTabXpath",
+		"locators": [
+			"_._:{0}//div[@class='CurrentTraceResult']//div[@class='trace-tabs-nav' or @class='TracePathTabs']//*[(name()='a' or name()='div') and (normalize-space(text())='{1}' or normalize-space(@title)='{2}')]"
+		]
+	},
+	{
+		"name": "dynamicScheduledTabXpath",
+		"locators": [
+			"_._:{0}//div[@class='ScheduledTraceResult']//div[@class='trace-tabs-nav' or @class='TracePathTabs']//*[(name()='a' or name()='div') and (normalize-space(text())='{1}' or normalize-space(@title)='{2}')]"
+		]
+	},
+	{
+		"name": "dynamicManyTabsXpath",
+		"locators": [
+			"_._:{0}//div[contains(@class,'MPOPairContent') and contains(@style,'display: block')]//*[(name()='a' or name()='div') and (normalize-space(text())='{1}' or normalize-space(@title)='{2}')]"
+		]
+	},
+	{
+		"name": "dynamicCellXpath",
+		"locators": [
+			"_._:{0}//tr[{1}]//td[{2}]"
+		]
+	},
+	{
+		"name": "dynamicTraceObjectXpath",
+		"locators": [
+			"_._:{0}//div[@id='{1}' and contains(@class,'ObjectDetail')]"
+		]
+	},
+	{
+		"name": "dynamicTreeNodeCheckBoxXpath",
+		"locators": [
+			"_._:{0}/ins[@class='jstree-checkbox']"
+		]
+	},
+	{
+		"name": "dialogOkBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@style, 'display: block') and not(contains(@style, 'visibility: hidden'))]//li[@class='CmdSave' and @id='ok' and not(@style='display:none')]"
+		]
+	},
+	{
+		"name": "dialogCancelBtn",
+		"locators": [
+			"_._:xpath=(//div[contains(@style, 'display: block') and not(contains(@style, 'visibility: hidden'))]//*[not(@style='display: none;')]/div[@class='PopupTitle']//li[@class='CmdCancel'])[last()]"
+		]
+	},
+	{
+		"name": "dynamicBuiltNodeXpath",
+		"locators": [
+			"_._://ul/li[a[normalize-space(text())='{0}']]"
+		]
+	},
+	{
+		"name": "dynamicListPreviousTh",
+		"locators": [
+			"_._:{0}//th[*[normalize-space(text())='{1}']]//preceding-sibling::th"
+		]
+	},
+	{
+		"name": "dynamicListPreviousTr",
+		"locators": [
+			"_._:{0}/preceding-sibling::tr"
+		]
+	},
+	{
+		"name": "dynamicHeaderTable",
+		"locators": [
+			"_._:{0}/preceding::table[1]"
+		]
+	},
+	{
+		"name": "dynamicRowXpath",
+		"locators": [
+			"_._:and normalize-space(td[{0}])='{1}'"
+		]
+	},
+	{
+		"name": "dynamicFinalRowXpath",
+		"locators": [
+			"_._:{0}//tr[{1}]"
+		]
+	},
+	{
+		"name": "dynamicNodeXpath",
+		"locators": [
+			"_._://ul/li[a[normalize-space(text())='{0}']]"
+		]
+	},
+	{
+		"name": "dynamicEleCurrentNode",
+		"locators": [
+			"_._:{0}/a"
+		]
+	},
+	{
+		"name": "dynamicEleCollapse",
+		"locators": [
+			"_._:{0}/ins[1]/ancestor::li[contains(@class,'jstree-closed')]"
+		]
+	},
+	{
+		"name": "dynamicExpandNodeBtn",
+		"locators": [
+			"_._:{0}/ins[1]"
+		]
+	},
+	{
+		"name": "loadingTree",
+		"locators": [
+			"_._:jquery: [class*=\"jstree-loading\"]"
+		]
+	},
+	{
+		"name": "mainDiv",
+		"locators": [
+			"_._:preLoadDiv"
+		]
+	},
+	{
+		"name": "traceBtn",
+		"locators": [
+			"_._:id=imgTrace"
+		]
+	},
+	{
+		"name": "downloadFileNameJs",
+		"locators": [
+			"_._:return document.querySelector('downloads-manager').shadowRoot.querySelector('#downloadsList downloads-item').shadowRoot.querySelector('div#content  #file-link').text"
+		]
+	},
+	{
+		"name": "dialogYesBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@style, 'display: block') and not(contains(@style, 'visibility: hidden'))]//div[@id='twoChoiceYes' and not(@style='display:none')]"
+		]
+	},
+	{
+		"name": "dialogNoBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@style, 'display: block') and not(contains(@style, 'visibility: hidden'))]//div[@id='twoChoiceNo' and not(@style='display:none')]"
+		]
+	},
+	{
+		"name": "masterRightDiv",
+		"locators": [
+			"_._:xpath=//div[@id='MasterRightContent']"
+		]
+	},
+	{
+		"name": "masterRightDiv",
+		"locators": [
+			"_._:xpath=//div[@id='MasterRightContent']"
+		]
+	},
+	{
+		"name": "attentionYesBtn",
+		"locators": [
+			"_._:xpath=//li[@id='liYes']"
+		]
+	},
+	{
+		"name": "attentionNoBtn",
+		"locators": [
+			"_._:xpath=//li[@id='liNo']"
+		]
+	},
+	{
+		"name": "treePortTypeIcon",
+		"locators": [
+			"_._:{0}//span[text()='{1}']"
+		]
+	},
+	{
+		"name": "dynamicFirstTraceObjectXpath",
+		"locators": [
+			"_._:{0}//div[@id='1' and contains(@class,'ObjectDetail')]"
+		]
+	},
+	{
+		"name": "traceTabDiv",
+		"locators": [
+			"_._:xpath=//div[@class='trace-tabs-nav']"
+		]
+	}
+]

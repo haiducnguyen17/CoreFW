@@ -1,0 +1,14 @@
+[
+  {
+  	"name": "restoreBtn",
+  	"locators": [
+  	  "_._:xpath=//a[@id='btnRestore']"
+  	]
+  },
+  {
+  	"name": "dynamicFileObjectXpath",
+  	"locators": [
+  	  "_._:xpath=//table[@id='BackupListGrid']//td[@aria-describedby='BackupListGrid_FileName' and @title='{0}']"
+  	]
+  }    
+]

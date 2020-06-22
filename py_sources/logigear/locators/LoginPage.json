@@ -1,0 +1,28 @@
+[
+	{
+		"name": "usernameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtUserName']"
+		]
+	},
+	{
+		"name": "passwordTxt",
+		"locators": [
+			"_._:xpath=//input[@id='txtPassword']",
+			"_.mobile:css=#txtPassword"
+		]
+	},
+	{
+		"name": "signinBtn",
+		"locators": [
+			"_._:xpath=//div[@id='cmdLogin']",
+			"firefox.mobile:id=cmdLogin"
+		]
+	},
+	{
+		"name": "restoreMessageDiv",
+		"locators": [
+			"_._:xpath=//div[contains(text(),'Database restore in progress.') or contains(text(),'Could not connect to server.') or contains(text(),'Could not connect to database.')]"
+		]
+	}
+]

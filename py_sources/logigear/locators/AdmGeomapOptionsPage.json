@@ -1,0 +1,141 @@
+[
+	{
+		"name": "optionsFrame",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'GeomapOptions.aspx')]"
+		]
+	},
+	
+	{
+		"name": "optionsLnk",
+		"locators": [
+			"_._:xpath=//a[contains(@href,'GeomapOptions.aspx')]"
+		]
+	},
+	
+	{
+		"name": "dynamicUseCustomGeomapServerChk",
+		"locators": [
+			"_._:xpath=//label[text()='Use Custom GeoMap Server - {0} View']/preceding-sibling::input"
+		]
+	},
+	
+	{
+		"name": "serverMapViewUrlTemplateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='urlTemplate_1']"
+		]
+	},
+	
+	{
+		"name": "serverMapViewMaxZoomLevelTxt",
+		"locators": [
+			"_._:xpath=//input[@id='maxZoomLevel_1']"
+		]
+	},
+	
+	{
+		"name": "serverMapViewAttributionLinkText1Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Map View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[1]/div[1]/input"
+		]
+	},
+	
+	{
+		"name": "serverMapViewAttributionLinkText2Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Map View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[2]/div[1]/input"
+		]
+	},
+	
+	{
+		"name": "serverMapViewAttributionLinkText3Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Map View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[3]/div[1]/input"
+		]
+	},
+	
+	{
+		"name": "serverMapViewAttributionLinkUrllink1Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Map View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[1]/div[2]/input"
+		]
+	},
+	
+	{
+		"name": "serverMapViewAttributionLinkUrllink2Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Map View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[2]/div[2]/input"
+		]
+	},
+	
+	{
+		"name": "serverMapViewAttributionLinkUrllink3Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Map View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[3]/div[2]/input"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewUrlTemplateTxt",
+		"locators": [
+			"_._:xpath=//input[@id='urlTemplate_2']"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewMaxZoomLevelTxt",
+		"locators": [
+			"_._:xpath=//input[@id='maxZoomLevel_2']"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewAttributionLinkText1Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Satellite View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[1]/div[1]/input"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewAttributionLinkText2Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Satellite View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[2]/div[1]/input"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewAttributionLinkText3Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Satellite View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[3]/div[1]/input"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewAttributionLinkUrllink1Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Satellite View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[1]/div[2]/input"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewAttributionLinkUrllink2Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Satellite View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[2]/div[2]/input"
+		]
+	},
+	
+	{
+		"name": "serverSatelliteViewAttributionLinkUrllink3Txt",
+		"locators": [
+			"_._:xpath=//div[contains(.,'Use Custom GeoMap Server - Satellite View')and @class='optionSetion']/following-sibling::div[contains(.,'Attribution Link')]//div[contains(text(),'URL Link') or contains(text(),'Text')]/../following-sibling::div[3]/div[2]/input"
+		]
+	},
+	
+	{
+		"name": "saveGeomapOptionsBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgSaveGeoMapOption']"
+		]
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"name": "treeFromDiv",
+		"locators": [
+			"_._:xpath=//div[@id='PopupPlaceHolder_ConduitStart']"
+		]
+	},
+	{
+		"name": "treeToDiv",
+		"locators": [
+			"_._:xpath=//div[@id='PopupPlaceHolder_ConduitEnd']"
+		]
+	},
+	{
+		"name": "addConduitBtn",
+		"locators": [
+			"_._:xpath=//input[@id='imgAdd']"
+		]
+	},
+	{
+		"name": "conduitsFrame",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'ManageConduits.aspx')]"
+		]
+	},
+	{
+		"name": "addConduitsCancelBtn",
+		"locators": [
+			"_._:xpath=//li[@id='AddConduitCancel']"
+		]
+	}
+]

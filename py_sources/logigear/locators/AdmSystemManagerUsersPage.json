@@ -1,0 +1,14 @@
+[
+	{
+		"name": "userTbl",
+		"locators": [
+			"_._:xpath=//table[@id='UserGrid']"
+		]
+	},
+	{
+		"name": "technicianChk",
+		"locators": [
+			"_._:xpath=//input[@id='chkTechnician']"
+		]
+	}
+]

@@ -1,0 +1,8 @@
+[
+	{
+		"name": "dynamicNavigation",
+		"locators": [
+			"_._:xpath=//li[a[normalize-space(text())='{0}']]"
+		]
+	}
+]

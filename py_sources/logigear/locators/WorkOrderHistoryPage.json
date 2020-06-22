@@ -1,0 +1,20 @@
+[
+	{
+		"name": "woHistoryIframe",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'WorkOrderHistoryByObject.aspx')]"
+		]
+	},
+	{
+		"name": "woHistoryTbl",
+		"locators": [
+			"_._:xpath=//table[@id='WorkOrderQueueGrid']"
+		]
+	},
+	{
+		"name": "woHistoryDetailsTbl",
+		"locators": [
+			"_._:xpath=//table[starts-with(@id,'WorkOrderQueueGrid_')]"
+		]
+	}	
+]

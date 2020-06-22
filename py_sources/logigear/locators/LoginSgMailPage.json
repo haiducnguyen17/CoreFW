@@ -1,0 +1,26 @@
+[
+	{
+		"name": "mailUserNameTxt",
+		"locators": [
+			"_._:xpath=//input[@id='username']"
+		]
+	},
+	{
+		"name": "mailPasswordTxt",
+		"locators": [
+			"_._:xpath=//input[@id='password']"
+		]
+	},
+	{
+		"name": "mailSignInBtn",
+		"locators": [
+			"_._:xpath=//input[normalize-space(@value)='Sign in']"
+		]
+	},
+	{
+		"name": "privateComputerChk",
+		"locators": [
+			"_._:xpath=//input[@id='rdoPrvt']"
+		]
+	}
+]

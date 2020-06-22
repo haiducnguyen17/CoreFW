@@ -1,0 +1,140 @@
+[
+	{
+		"name": "dynamicDeleteBtn",
+		"locators": [
+			"_._:xpath=//tbody[@id='quareoDevices']//tr[td[count(//table[contains(@class,'table-striped')]/thead//th[normalize-space(text())='IP Address']/preceding-sibling::th)+1]='{0}']/td/button[contains(@class,'btn-danger')]"
+		]
+	},
+	{
+		"name": "startAtIpTxt",
+		"locators": [
+			"_._:xpath=//input[@id='startAtIP']"
+		]
+	},
+	{
+		"name": "numberOfDevicesTxt",
+		"locators": [
+			"_._:xpath=//input[@id='noOfDevices']"
+		]
+	},
+	{
+		"name": "populateDataChk",
+		"locators": [
+			"_._:xpath=//input[@id='populateData']"
+		]
+	},
+	{
+		"name": "supportsPushChk",
+		"locators": [
+			"_._:xpath=//input[@id='supportsPush']"
+		]
+	},
+	{
+		"name": "dynamicAddingTab",
+		"locators": [
+			"_._:xpath=//button[contains(@class,'tablinks') and normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "contentTypeCbb",
+		"locators": [
+			"_._:xpath=//select[@id='contentType']"
+		]
+	},
+	{
+		"name": "retainDataLnk",
+		"locators": [
+			"_._:xpath=//input[@id='retainData']"
+		]
+	},
+	{
+		"name": "inputFileTxt",
+		"locators": [
+			"_._:xpath=//input[@id='fileInput']"
+		]
+	},
+	{
+		"name": "okBtn",
+		"locators": [
+			"_._:xpath=//button[@id='createDevice']"
+		]
+	},
+	{
+		"name": "closeBtn",
+		"locators": [
+			"_._:xpath=//span[@id='closeButton']"
+		]
+	},
+	{
+		"name": "capacityUCbb",
+		"locators": [
+			"_._:xpath=//div[label[starts-with(text(),'Capacity U')] and not(contains(@class,'hidden'))]/select[1]"
+		]
+	},
+	{
+		"name": "modulesCbb",
+		"locators": [
+			"_._:xpath=//div[@class = 'deviceTemplateContentsClass']//select[contains(@name,'Modulesselector')]"
+		]
+	},
+	{
+		"name": "createBtn",
+		"locators": [
+			"_._:xpath=//button[@id='createButton']/span"
+		]
+	},
+	{
+		"name": "deviceSubTypeCbb",
+		"locators": [
+			"_._:xpath=//select[@id='deviceSubType']"
+		]
+	},
+	{
+		"name": "moduleContentTbl",
+		"locators": [
+			"_._:xpath=//div[@id='modulesSection']/table"
+		]
+	},
+	{
+		"name": "dynamicModuleIdLnk",
+		"locators": [
+			"_._:xpath=//tbody[@id='modules']//a[text()='{0}']"
+		]
+	},
+	{
+		"name": "dynamicSwitchPortStateBtn",
+		"locators": [
+			"_._:xpath=//tr[td[normalize-space(.)='{0}']]/following-sibling::tr[1]//button"
+		]
+	},
+	{
+		"name": "dynamicCableIdTxt",
+		"locators": [
+			"_._:xpath=//tr[td[normalize-space(.)='{0}']]/following-sibling::tr[1]//textarea"
+		]
+	},
+	{
+		"name": "quareoDevicesLinkState",
+		"locators": [
+			"_._:xpath=//li[a[@href='quareo-devices-list.html'] and @class='nav-nesting-0 active']"
+		]
+	},
+	{
+		"name": "dynamicObjectQuareoTable",
+		"locators": [
+			"_._:xpath=//table[@id='quareoDevicesTable']/tbody//a[normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "showEntriesCbb",
+		"locators": [
+			"_._:name=quareoDevicesTable_length"
+		]
+	},
+	{
+		"name": "quareoDevicesTable",
+		"locators": [
+			"_._:xpath=//table[@id='quareoDevicesTable']"
+		]
+	}
+]

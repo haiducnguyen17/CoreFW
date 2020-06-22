@@ -1,0 +1,20 @@
+[
+	{
+		"name": "logOutLnk",
+		"locators": [
+			"_._:xpath=//a[contains(@href,'Sys_Login')]"
+		]
+	},
+	{
+		"name": "dynamicSubItem",
+		"locators": [
+			"_._:xpath=//div[@id='zone-body']//li[a[normalize-space(text())='{0}']]"
+		]
+	},
+	{
+		"name": "dynamicMenuItem",
+		"locators": [
+			"_._:xpath=//li/a[normalize-space()='{0}']"
+		]
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"name": "archiveReportTitle",
+		"locators": [
+			"_._:xpath=//li[@class='title' and normalize-space(text())='Report Archive']"
+		]
+	},
+	{
+		"name": "archiveReportListTbl",
+		"locators": [
+			"_._:xpath=//table[@id='resultListGrid']"
+		]
+	},
+	{
+		"name": "archiveReportTbl",
+		"locators": [
+			"_._:xpath=//table[@id='archiveGrid']"
+		]
+	},
+	{
+		"name": "dynamicArchiveReportChk",
+		"locators": [
+			"_._:xpath=//td[contains(@title,'{0}:00')]//preceding-sibling::td/input[@type='checkbox']"
+		]
+	}
+]

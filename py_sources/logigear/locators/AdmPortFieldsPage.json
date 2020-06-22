@@ -1,0 +1,20 @@
+[
+	{
+		"name": "dynamicChk",
+		"locators": [
+			"_._:xpath=//label[contains(text(),'{0}')]//input[@type='checkbox']"
+		]
+	},
+	{
+		"name": "dynamicFieldLabelTxt",
+		"locators": [
+			"_._:xpath=//label[contains(text(),'{0}')]/../following-sibling::div//input[@type='text']"
+		]
+	},
+	{
+		"name": "saveBtn",
+		"locators": [
+			"_._:xpath=//a[@title='Save']"
+		]
+	}
+]

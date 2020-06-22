@@ -1,0 +1,26 @@
+[
+	{
+		"name": "selectAllBtn",
+		"locators": [
+			"_._:xpath=//input[@id='cb_EventLogTypeGrid']"
+		]
+	},
+	{
+		"name": "eventsTbl",
+		"locators": [
+			"_._:xpath=//table[@id='EventLogTypeGrid']"
+		]
+	},
+	{
+		"name": "priorityEventsTitle",
+		"locators": [
+			"_._:xpath=//li[@class='title' and text()='Priority Event Settings']"
+		]
+	},
+	{
+		"name": "dynamicPriorityChk",
+		"locators": [
+			"_._:xpath=//td[text()='{0}']/preceding::input[@type='checkbox'][1]"
+		]
+	}
+]

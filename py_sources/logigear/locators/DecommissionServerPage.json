@@ -1,0 +1,32 @@
+[
+	{
+		"name": "removeServerChk",
+		"locators": [
+			"_._:id=removeServer"
+		]
+	},
+	{
+		"name": "dynamicRemoveConnectRadio",
+		"locators": [
+			"_._:xpath=//div[@id='optionSelect']/div[{0}]/input[@type='radio']"
+		]
+	},
+	{
+		"name": "serverPortTbl",
+		"locators": [
+			"_._:xpath=//table[@id='ServerPortGrid']"
+		]
+	},
+	{
+		"name": "traceMapDiv",
+		"locators": [
+			"_._:xpath=//div[@id='TraceMapDialogForCheckPatch']"
+		]
+	},
+	{
+		"name": "decommissionServerOptionIframe",
+		"locators": [
+			"_._:xpath=//div[@id='DecommissionServerOptionDialog']/div/iframe"
+		]
+	}
+]

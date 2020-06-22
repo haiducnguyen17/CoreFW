@@ -1,0 +1,110 @@
+[
+	{
+		"name": "filterBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgFilter']"
+		]
+	},
+	{
+		"name": "eventLogTbl",
+		"locators": [
+			"_._:xpath=//table[@id='EventLogGrid']"
+		]
+	},
+	{
+		"name": "refreshBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgRefresh']"
+		]
+	},
+	{
+		"name": "clearAllBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgClearAll']"
+		]
+	},
+	{
+		"name": "clearEventBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgClear']"
+		]
+	},
+	{
+		"name": "locateBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgLoacte']"
+		]
+	},
+	{
+		"name": "selectItemCbb",
+		"locators": [
+			"_._:xpath=//select[@class='ui-pg-selbox']"
+		]
+	},
+	{
+		"name": "dynamicDescription",
+		"locators": [
+			"_._:td[@aria-describedby='EventLogGrid_eventtypename' and normalize-space(text())='{0}']"
+		]
+	},
+	{
+		"name": "dynamicDateTime",
+		"locators": [
+			"_._:td[@aria-describedby='EventLogGrid_eventdatetime' and contains(text(),'{0}')]"
+		]
+	},
+	{
+		"name": "dynamicTextXpath",
+		"locators": [
+			"_._:[*[contains(.,'{0}')]]"
+		]
+	},
+	{
+		"name": "dynamicDescriptionWithTime",
+		"locators": [
+			"_._://tr[{0} and {1}][{2}]"
+		]
+	},
+	{
+		"name": "dynamicDescriptionWithoutTime",
+		"locators": [
+			"_._://tr[{0}][{1}]"
+		]
+	},
+	{
+		"name": "dynamicDescriptionWithTimeWithOutPosition",
+		"locators": [
+			"_._://tr[{0} and {1}]"
+		]
+	},
+	{
+		"name": "dynamicDescriptionWithoutTimeWithOutPosition",
+		"locators": [
+			"_._://tr[{0}]"
+		]
+	},
+	{
+		"name": "detailsBridgeXpath",
+		"locators": [
+			"_._://following-sibling::tr[1]//div[@id='info']"
+		]
+	},
+	{
+		"name": "eventCollapseBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgCollapse']"
+		]
+	},
+	{
+		"name": "eventDesRows",
+		"locators": [
+			"_._:xpath=//td[@aria-describedby='EventLogGrid_eventtypename']"
+		]
+	},
+	{
+		"name": "eventSubRows",
+		"locators": [
+			"_._:xpath=//tr[@class='ui-subgrid']"
+		]
+	}
+]

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "ccFrame",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'CircuitProvisioning.aspx')]"
+		]
+	},
+	{
+		"name": "treeFromDiv",
+		"locators": [
+			"_._:xpath=//div[@id='divTable']//following::div[@id='leftTree']"
+		]
+	},
+	{
+		"name": "treeToDiv",
+		"locators": [
+			"_._:xpath=//div[@id='divTable']//following::div[@id='rightTree']"
+		]
+	}
+]

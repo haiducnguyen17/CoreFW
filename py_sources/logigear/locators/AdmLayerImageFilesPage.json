@@ -1,0 +1,26 @@
+[
+	{
+		"name": "layerNameTxt",
+		"locators": [
+			"_._:xpath=//div[@class='frm-row ivu-row']//input[@class='ivu-input ivu-input-small']"
+		]
+	},
+	{
+		"name": "layerImageTbl",
+		"locators": [
+			"_._:xpath=//div[@class='ivu-table-body']/table"
+		]
+	},
+	{
+		"name": "colorPickerBtn",
+		"locators": [
+			"_._:xpath=//div[@class='ivu-color-picker']/div/i[contains(@class,'ivu-icon-ios-arrow-down')]"
+		]
+	},
+	{
+		"name": "saveBtn",
+		"locators": [
+			"_._:xpath=//div[@class='sm-model-header']//li[@class='CmdSave']"
+		]
+	}
+]

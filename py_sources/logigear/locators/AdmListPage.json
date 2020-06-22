@@ -1,0 +1,50 @@
+[
+	{
+		"name": "dynamicGroupListTitle",
+		"locators": [
+			"_._:xpath=//td[normalize-space(text())= '{0}']"
+		]
+	},
+	{
+		"name": "listTbl",
+		"locators": [
+			"_._:xpath=//table[@id='GroupDetailsGrid']"
+		]
+	},
+	{
+		"name": "listNameTxt",
+		"locators": [
+			"_._:id=txtListName"
+		]
+	},
+	{
+		"name": "equipmentImageBtn",
+		"locators": [
+			"_._:id=divEquipmentImage"
+		]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:xpath=//a[@id='imgDelete']"
+		]
+	},
+	{
+		"name": "equipmentViewImg",
+		"locators": [
+			"_._:xpath=//div[@id='lblEquipmentView']//img"
+		]
+	},
+	{
+		"name": "listIconTypeCbb",
+		"locators": [
+			"_._:id=lstIconType"
+		]
+	},
+	{
+		"name": "confirmAddListBtn",
+		"locators": [
+			"_._:xpath=//div[contains(@style, 'display: block') and not(contains(@style, 'visibility: hidden'))]//li[@class='CmdSave' and not(@style='display:none')]"
+		]
+	}
+]

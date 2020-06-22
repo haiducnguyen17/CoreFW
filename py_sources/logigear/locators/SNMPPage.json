@@ -1,0 +1,26 @@
+[
+  {
+  	"name": "snmpStatusIframe",
+  	"locators": [
+  	  "_._:xpath=//iframe[@src='../Aspx/SNMPStatusView.aspx']"
+  	]
+  },
+  {
+  	"name": "snmpTaskStatusIframe",
+  	"locators": [
+  	  "_._:xpath=//iframe[@src='SNMPTaskStatus.aspx']"
+  	]
+  },
+  {
+  	"name": "snmpStatusTbl",
+  	"locators": [
+  	  "_._:xpath=//table[@id='SNMPStatusGrid']"
+  	]
+  },
+  {
+  	"name": "refreshBtn",
+  	"locators": [
+  	  "_._:xpath=//a[@id='imgSNMPStatusRefresh']"
+  	]
+  }
+]

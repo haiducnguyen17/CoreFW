@@ -1,0 +1,20 @@
+[
+	{
+		"name": "ospCablingIframe",
+		"locators": [
+			"_._:xpath=//iframe[contains(@src,'OSPCabling.aspx')]"
+		]
+	},
+	{
+		"name": "treeFromDiv",
+		"locators": [
+			"_._:xpath=//div[@id='dvCableFrom']"
+		]
+	},
+	{
+		"name": "treeToDiv",
+		"locators": [
+			"_._:xpath=//div[@id='dvCableTo']"
+		]
+	}
+]

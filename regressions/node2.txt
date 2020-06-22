@@ -1,0 +1,46 @@
+# SM-30114.robot
+(Bulk_SM-30114-01-03-04)_Verify "Plug Inserted In Quareo Port" And "Plug Removed From Quareo Port" Are Added When Quareo Is Enabled
+SM-30114-02_Verify "Plug Inserted In Quareo Port" And "Plug Removed From Quareo Port" Are Added Into Administration -> Event Notification Profiles -> Add/Edit Profile - Select Events
+# SM-29862.robot
+SM-29862_01_02_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit:
+SM-29862_03_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit: Switch (LC Duplex) -> cabled to -> Quareo QHDEP F24LCDuplex-R24LCDuplex (Critical, Static Port, Unmanaged) -> patched to -> Unknown equipment
+SM-29862_04_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit:Switch (LC Duplex) -> patched to ->Panel (LC Duplex) -> cabled to -> Quareo QHDEP Device 1 ->unmanaged connect to -> QNG4 Device 2
+SM-29862_05_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit:
+SM-29862_06-07_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit:
+SM-29862_08_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit
+SM-29862_09_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit
+SM-29862_10_11_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit
+SM-29862_12_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit
+SM-29862_13_Verify that "Unscheduled Patching Change to Critical Circuit" event is generated when the connection was removed/added and affects a critical circuit
+# SM-29926-Q2000.robot
+SM-29926_01_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q2000 device
+# SM-29926-QNG4.robot
+SM-29926_17_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QNG4 device with Module Type is "F12LCDuplex-R1MPO24-Flipped"
+SM-29926_18_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F12LCDuplex-R1MPO24-Straight"
+SM-29926_19_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F12LCDuplex-R2MPO12-Straight"
+SM-29926_20_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCSimplex-R2MPO12"
+SM-29926_21_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F6MPO08-R2MPO24-Straight"
+SM-29926_22_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F8MPO24-R8MPO24"
+# SM-29926-Q4000.robot
+SM-29926_02_Verify that SM will not generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F12MPO08-R4MPO24-Straight"
+SM-29926_03_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F16MPO12-R16MPO12"
+SM-29926_04_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R24LCDuplex"
+SM-29926_05_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R2MPO24-Flipped"
+SM-29926_06_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R2MPO24-HD"
+SM-29926_07_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R2MPO24-Straight"
+SM-29926_08_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R4MPO12-Flipped"
+SM-29926_09_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R4MPO12-Flipped"
+SM-29926_10_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of Q4000 device with Module Type is "F24LCDuplex-R4MPO12-Straight"
+# SM-29926-QHDEP.robot
+SM-29926_11_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QHDEP device with Module Type is "F12LCDuplex-R12LCDuplex"
+SM-29926_12_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QHDEP device with Module Type is "F12LCDuplex-R1MPO24-HD"
+SM-29926_13_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QHDEP device with Module Type is "F12LCDuplex-R2MPO12-Flipped"
+SM-29926_14_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QHDEP device with Module Type is "F24LCSimplex-R24LCSimplex"
+SM-29926_15_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QHDEP device with Module Type is "F24LCSimplex_CMOD"
+SM-29926_16_Verify that SM will generate event "Plug Inserted in Quareo Port" and "Plug Removed from Quareo Port" if user plugs or unplugs quareo port of QHDEP device with Module Type is "F8MPO12-R8MPO12"
+# SM-29803.robot
+SM-29803-01_Verify that the user cannot cable Quareo port with new MPO12-6xLC assembly
+# SM-29804_SM-29805.robot
+SM-29804_SM-29805_01_Verify that the user cannot patch Quareo port with new MPO12-6xLC assembly
+# SM-30114-Disabled Middleware.robot
+(Bulk_SM-30114-05-06-07)_Verify "Plug Inserted In Quareo Port" And "Plug Removed From Quareo Port" Are Not Added When Quareo Is Disabled

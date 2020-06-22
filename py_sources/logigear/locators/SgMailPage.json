@@ -1,0 +1,44 @@
+[
+	{
+		"name": "inboxFolderLbl",
+		"locators": [
+			"_._:xpath=//div[@id='mailtree']//span[contains(text(),'Inbox')]"
+		]
+	},
+	{
+		"name": "dynamicNewEmailTitle",
+		"locators": [
+			"_._:xpath=(//div[normalize-space(text())='Today']//following::div[@class='c3 ur' and normalize-space(text())='{0}'])[1]"
+		]
+	},
+	{
+		"name": "checkMessageBtn",
+		"locators": [
+			"_._:xpath=//a[@id='checkmessages']/img[@id='imgToolbarButtonIcon']"
+		]
+	},
+	{
+		"name": "dynamicEmailDetails",
+		"locators": [
+			"_._:[*[contains(.,'{0}')]]"
+		]
+	},
+	{
+		"name": "emailDetailsDiv",
+		"locators": [
+			"_._:xpath=//div[@id='divBdy']"
+		]
+	},
+	{
+		"name": "reportLinkEmailDiv",
+		"locators": [
+			"_._:xpath=//div[@id='divBdy']//div[starts-with(text(),'http')]"
+			]
+	},
+	{
+		"name": "deleteBtn",
+		"locators": [
+			"_._:xpath=//a[@id='delete']"
+			]
+	}
+]
